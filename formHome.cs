@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace waterApp
 {
+
     public partial class formHome : Form
     {
         public formHome()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None; // Remove bordas
         }
 
         private void formHome_Load(object sender, EventArgs e)

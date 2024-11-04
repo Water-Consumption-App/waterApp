@@ -15,6 +15,8 @@ namespace waterApp
         public formInfo()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None; // Remove bordas
+            this.Size = new Size(1080, 720); // Pode ser igual ao MDI parent ou ajustar conforme necessário
         }
 
         private void formInfo_Load(object sender, EventArgs e)

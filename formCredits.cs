@@ -15,11 +15,22 @@ namespace waterApp
         public formCredits()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None; // Remove bordas
         }
 
         private void formCredits_Load(object sender, EventArgs e)
         {
             this.ControlBox = false;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

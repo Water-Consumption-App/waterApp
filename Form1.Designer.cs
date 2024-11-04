@@ -60,7 +60,7 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1166, 43);
+            panel1.Size = new Size(1080, 43);
             panel1.TabIndex = 0;
             // 
             // label1
@@ -87,7 +87,7 @@
             // 
             // sidebar
             // 
-            sidebar.BackColor = Color.SteelBlue;
+            sidebar.BackColor = Color.FromArgb(4, 1, 125);
             sidebar.Controls.Add(pnHome);
             sidebar.Controls.Add(pnCredits);
             sidebar.Controls.Add(pnGame);
@@ -96,12 +96,14 @@
             sidebar.FlowDirection = FlowDirection.TopDown;
             sidebar.Location = new Point(0, 43);
             sidebar.Name = "sidebar";
-            sidebar.Size = new Size(251, 549);
+            sidebar.Size = new Size(52, 677);
             sidebar.TabIndex = 1;
             // 
             // pnHome
             // 
+            pnHome.BackColor = Color.FromArgb(0, 0, 133);
             pnHome.Controls.Add(button1);
+            pnHome.ForeColor = Color.White;
             pnHome.Location = new Point(0, 0);
             pnHome.Margin = new Padding(0);
             pnHome.Name = "pnHome";
@@ -110,7 +112,7 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.SteelBlue;
+            button1.BackColor = Color.FromArgb(4, 1, 125);
             button1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.Image = (Image)resources.GetObject("button1.Image");
             button1.ImageAlign = ContentAlignment.MiddleLeft;
@@ -124,7 +126,9 @@
             // 
             // pnCredits
             // 
+            pnCredits.BackColor = Color.FromArgb(0, 0, 133);
             pnCredits.Controls.Add(button4);
+            pnCredits.ForeColor = Color.White;
             pnCredits.Location = new Point(0, 55);
             pnCredits.Margin = new Padding(0);
             pnCredits.Name = "pnCredits";
@@ -133,7 +137,7 @@
             // 
             // button4
             // 
-            button4.BackColor = Color.SteelBlue;
+            button4.BackColor = Color.FromArgb(4, 1, 125);
             button4.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button4.Image = (Image)resources.GetObject("button4.Image");
             button4.ImageAlign = ContentAlignment.MiddleLeft;
@@ -147,7 +151,9 @@
             // 
             // pnGame
             // 
+            pnGame.BackColor = Color.FromArgb(0, 0, 133);
             pnGame.Controls.Add(button3);
+            pnGame.ForeColor = Color.White;
             pnGame.Location = new Point(0, 110);
             pnGame.Margin = new Padding(0);
             pnGame.Name = "pnGame";
@@ -156,7 +162,7 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.SteelBlue;
+            button3.BackColor = Color.FromArgb(4, 1, 125);
             button3.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button3.Image = (Image)resources.GetObject("button3.Image");
             button3.ImageAlign = ContentAlignment.MiddleLeft;
@@ -170,7 +176,9 @@
             // 
             // pnInfo
             // 
+            pnInfo.BackColor = Color.FromArgb(0, 0, 133);
             pnInfo.Controls.Add(button2);
+            pnInfo.ForeColor = Color.White;
             pnInfo.Location = new Point(0, 165);
             pnInfo.Margin = new Padding(0);
             pnInfo.Name = "pnInfo";
@@ -179,7 +187,7 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.SteelBlue;
+            button2.BackColor = Color.FromArgb(4, 1, 125);
             button2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.Image = (Image)resources.GetObject("button2.Image");
             button2.ImageAlign = ContentAlignment.MiddleLeft;
@@ -199,8 +207,8 @@
             // Form1
             // 
             AutoScaleMode = AutoScaleMode.None;
-            BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(1166, 592);
+            BackColor = Color.FromArgb(30, 30, 30);
+            ClientSize = new Size(1080, 720);
             Controls.Add(sidebar);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
