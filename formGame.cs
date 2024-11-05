@@ -10,7 +10,6 @@ namespace waterApp
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None; // Remove bordas
-            this.Size = new Size(1080, 720); // Pode ser igual ao MDI parent ou ajustar conforme necessário
         }
 
         private int vidaAgua = 50;
@@ -170,12 +169,12 @@ namespace waterApp
             if (selectedAnswerIndex == questions[currentQuestionIndex].CorrectAnswerIndex)
             {
                 MessageBox.Show("Correto!");
-                vidaConsumo -= 10; // Diminui a vida do consumo ao acertar
+                vidaConsumo -= 20; // Diminui a vida do consumo ao acertar
             }
             else
             {
                 MessageBox.Show("Incorreto!");
-                vidaAgua -= 5; // Diminui a vida da água ao errar
+                vidaAgua -= 10; // Diminui a vida da água ao errar
             }
 
             AtualizarVida(); // Atualiza os labels com os novos valores
@@ -183,13 +182,13 @@ namespace waterApp
             // Verificar se a vida da água ou do consumo chegou a zero
             if (vidaAgua <= 0)
             {
-                MessageBox.Show("A vida da água acabou! Jogo encerrado.");
+                MessageBox.Show("Infelizmente o consumo ganhou e água do mundo acabou! Jogo encerrado.");
                 ResetarJogo();
                 return;
             }
             else if (vidaConsumo <= 0)
             {
-                MessageBox.Show("A vida do consumo acabou! Jogo encerrado.");
+                MessageBox.Show("Parabéns! Você venceu o consumo, agora a terra está mais saúdavel.");
                 ResetarJogo();
                 return;
             }

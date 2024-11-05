@@ -41,7 +41,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(112, 292);
+            button1.Location = new Point(236, 403);
             button1.Name = "button1";
             button1.Size = new Size(95, 57);
             button1.TabIndex = 1;
@@ -50,7 +50,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(277, 292);
+            button2.Location = new Point(401, 403);
             button2.Name = "button2";
             button2.Size = new Size(100, 57);
             button2.TabIndex = 2;
@@ -60,7 +60,7 @@
             // button3
             // 
             button3.BackColor = Color.White;
-            button3.Location = new Point(446, 292);
+            button3.Location = new Point(570, 403);
             button3.Name = "button3";
             button3.Size = new Size(99, 57);
             button3.TabIndex = 3;
@@ -69,7 +69,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(609, 292);
+            button4.Location = new Point(733, 403);
             button4.Name = "button4";
             button4.Size = new Size(100, 57);
             button4.TabIndex = 4;
@@ -80,7 +80,7 @@
             // 
             label1.AutoSize = true;
             label1.ForeColor = Color.White;
-            label1.Location = new Point(122, 70);
+            label1.Location = new Point(246, 181);
             label1.Name = "label1";
             label1.Size = new Size(80, 15);
             label1.TabIndex = 7;
@@ -90,7 +90,7 @@
             // 
             label2.AutoSize = true;
             label2.ForeColor = Color.White;
-            label2.Location = new Point(582, 70);
+            label2.Location = new Point(706, 181);
             label2.Name = "label2";
             label2.Size = new Size(101, 15);
             label2.TabIndex = 8;
@@ -100,7 +100,7 @@
             // 
             label3.AutoSize = true;
             label3.ForeColor = Color.White;
-            label3.Location = new Point(136, 93);
+            label3.Location = new Point(260, 204);
             label3.Name = "label3";
             label3.Size = new Size(55, 15);
             label3.TabIndex = 9;
@@ -110,7 +110,7 @@
             // 
             label4.AutoSize = true;
             label4.ForeColor = Color.White;
-            label4.Location = new Point(593, 93);
+            label4.Location = new Point(717, 204);
             label4.Name = "label4";
             label4.Size = new Size(79, 15);
             label4.TabIndex = 10;
@@ -122,7 +122,7 @@
             label5.BackColor = Color.White;
             label5.Font = new Font("Tahoma", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.Black;
-            label5.Location = new Point(375, 202);
+            label5.Location = new Point(236, 305);
             label5.Name = "label5";
             label5.Size = new Size(68, 23);
             label5.TabIndex = 11;
@@ -133,7 +133,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(30, 30, 30);
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1080, 720);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);

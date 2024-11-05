@@ -20,6 +20,8 @@
             base.Dispose(disposing);
         }
 
+
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -46,7 +48,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1028, 677);
+            ClientSize = new Size(1080, 720);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "formHome";
