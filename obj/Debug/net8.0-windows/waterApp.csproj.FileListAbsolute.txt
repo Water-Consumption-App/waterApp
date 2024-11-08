@@ -19,3 +19,18 @@ C:\Users\Victor Carbelotti\source\repos\waterApp\obj\Debug\net8.0-windows\waterA
 C:\Users\Victor Carbelotti\source\repos\waterApp\obj\Debug\net8.0-windows\waterApp.formGame.resources
 C:\Users\Victor Carbelotti\source\repos\waterApp\obj\Debug\net8.0-windows\waterApp.formHome.resources
 C:\Users\Victor Carbelotti\source\repos\waterApp\obj\Debug\net8.0-windows\waterApp.formInfo.resources
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\waterApp.Form1.resources
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\waterApp.formCredits.resources
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\waterApp.formGame.resources
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\waterApp.formHome.resources
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\waterApp.formInfo.resources
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\waterApp.Properties.Resources.resources
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\waterApp.csproj.GenerateResource.cache
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\waterApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\waterApp.AssemblyInfoInputs.cache
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\waterApp.AssemblyInfo.cs
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\waterApp.csproj.CoreCompileInputs.cache
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\waterApp.sourcelink.json
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\waterApp.dll
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\refint\waterApp.dll
+C:\Users\Fer\Documents\GitHub\waterApp\obj\Debug\net8.0-windows\waterApp.pdb
