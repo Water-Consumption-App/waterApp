@@ -38,6 +38,7 @@
             // button1
             // 
             button1.BackColor = Color.FromArgb(43, 92, 153);
+            button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Tahoma", 14.25F, FontStyle.Bold);
             button1.ForeColor = Color.White;
@@ -51,6 +52,7 @@
             // button2
             // 
             button2.BackColor = Color.FromArgb(43, 92, 153);
+            button2.Cursor = Cursors.Hand;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Tahoma", 14.25F, FontStyle.Bold);
             button2.ForeColor = Color.White;
@@ -64,6 +66,7 @@
             // button3
             // 
             button3.BackColor = Color.FromArgb(43, 92, 153);
+            button3.Cursor = Cursors.Hand;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Tahoma", 14.25F, FontStyle.Bold);
             button3.ForeColor = Color.White;
@@ -77,6 +80,7 @@
             // button4
             // 
             button4.BackColor = Color.FromArgb(43, 92, 153);
+            button4.Cursor = Cursors.Hand;
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Tahoma", 14.25F, FontStyle.Bold);
             button4.ForeColor = Color.White;

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formInfo));
             lblinfo = new Label();
             lblinfotext = new Label();
             panel1 = new Panel();
@@ -38,12 +37,12 @@
             btndica3 = new Button();
             btndica4 = new Button();
             btndica1 = new Button();
+            lblcliquedica = new Label();
             userControl11 = new UserControl1();
             userControl21 = new UserControl2();
             userControl31 = new UserControl3();
             userControl41 = new UserControl4();
             userControl51 = new UserControl5();
-            lblcliquedica = new Label();
             userControl61 = new UserControl6();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -52,185 +51,222 @@
             // 
             lblinfo.AutoSize = true;
             lblinfo.BackColor = Color.Transparent;
-            lblinfo.Font = new Font("Sitka Banner", 28F, FontStyle.Bold | FontStyle.Italic);
-            lblinfo.Location = new Point(12, -9);
+            lblinfo.Font = new Font("Tahoma", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblinfo.ForeColor = Color.White;
+            lblinfo.Location = new Point(12, 9);
             lblinfo.Name = "lblinfo";
-            lblinfo.Size = new Size(129, 68);
+            lblinfo.Size = new Size(117, 45);
             lblinfo.TabIndex = 0;
             lblinfo.Text = "INFO";
             // 
             // lblinfotext
             // 
-            lblinfotext.AutoSize = true;
             lblinfotext.BackColor = Color.Transparent;
-            lblinfotext.Font = new Font("Sitka Display", 15F);
-            lblinfotext.Location = new Point(12, 46);
+            lblinfotext.Font = new Font("Tahoma", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblinfotext.ForeColor = Color.White;
+            lblinfotext.Location = new Point(12, 60);
             lblinfotext.Name = "lblinfotext";
-            lblinfotext.Size = new Size(708, 36);
+            lblinfotext.Size = new Size(366, 72);
             lblinfotext.TabIndex = 1;
             lblinfotext.Text = "Nessa seção serão apresentadas dicas de consumo consciente de água.";
             // 
             // panel1
             // 
-            panel1.BackColor = Color.Transparent;
+            panel1.BackColor = Color.FromArgb(10, 29, 55);
             panel1.Controls.Add(btndica6);
             panel1.Controls.Add(btndica5);
             panel1.Controls.Add(btndica2);
             panel1.Controls.Add(btndica3);
             panel1.Controls.Add(btndica4);
             panel1.Controls.Add(btndica1);
-            panel1.Location = new Point(349, 85);
+            panel1.Location = new Point(567, 65);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(555, 93);
+            panel1.Size = new Size(486, 70);
             panel1.TabIndex = 2;
             // 
             // btndica6
             // 
-            btndica6.BackgroundImage = (Image)resources.GetObject("btndica6.BackgroundImage");
+            btndica6.BackColor = Color.FromArgb(0, 14, 39);
             btndica6.BackgroundImageLayout = ImageLayout.Stretch;
-            btndica6.Font = new Font("Sitka Display", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btndica6.Location = new Point(466, 5);
+            btndica6.Cursor = Cursors.Hand;
+            btndica6.Font = new Font("Tahoma", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btndica6.ForeColor = Color.White;
+            btndica6.Location = new Point(408, 4);
+            btndica6.Margin = new Padding(3, 2, 3, 2);
             btndica6.Name = "btndica6";
-            btndica6.Size = new Size(86, 86);
+            btndica6.Size = new Size(75, 64);
             btndica6.TabIndex = 5;
-            btndica6.UseVisualStyleBackColor = true;
+            btndica6.Text = "6";
+            btndica6.UseVisualStyleBackColor = false;
             btndica6.Click += btndica6_Click;
             // 
             // btndica5
             // 
-            btndica5.BackgroundImage = (Image)resources.GetObject("btndica5.BackgroundImage");
+            btndica5.BackColor = Color.FromArgb(0, 14, 39);
             btndica5.BackgroundImageLayout = ImageLayout.Stretch;
-            btndica5.Font = new Font("Sitka Display", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btndica5.Location = new Point(374, 5);
+            btndica5.Cursor = Cursors.Hand;
+            btndica5.Font = new Font("Tahoma", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btndica5.ForeColor = Color.White;
+            btndica5.Location = new Point(329, 4);
+            btndica5.Margin = new Padding(3, 2, 3, 2);
             btndica5.Name = "btndica5";
-            btndica5.Size = new Size(86, 86);
+            btndica5.Size = new Size(75, 64);
             btndica5.TabIndex = 4;
-            btndica5.UseVisualStyleBackColor = true;
+            btndica5.Text = "5";
+            btndica5.UseVisualStyleBackColor = false;
             btndica5.Click += btndica5_Click;
             // 
             // btndica2
             // 
-            btndica2.BackgroundImage = (Image)resources.GetObject("btndica2.BackgroundImage");
+            btndica2.BackColor = Color.FromArgb(0, 14, 39);
             btndica2.BackgroundImageLayout = ImageLayout.Stretch;
-            btndica2.Font = new Font("Sitka Display", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btndica2.Location = new Point(97, 5);
+            btndica2.Cursor = Cursors.Hand;
+            btndica2.Font = new Font("Tahoma", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btndica2.ForeColor = Color.White;
+            btndica2.Location = new Point(85, 4);
+            btndica2.Margin = new Padding(3, 2, 3, 2);
             btndica2.Name = "btndica2";
-            btndica2.Size = new Size(88, 86);
+            btndica2.Size = new Size(77, 64);
             btndica2.TabIndex = 3;
-            btndica2.UseVisualStyleBackColor = true;
+            btndica2.Text = "2";
+            btndica2.UseVisualStyleBackColor = false;
             btndica2.Click += btndica2_Click_1;
             // 
             // btndica3
             // 
-            btndica3.BackgroundImage = (Image)resources.GetObject("btndica3.BackgroundImage");
+            btndica3.BackColor = Color.FromArgb(0, 14, 39);
             btndica3.BackgroundImageLayout = ImageLayout.Stretch;
-            btndica3.Font = new Font("Sitka Display", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btndica3.Location = new Point(191, 5);
+            btndica3.Cursor = Cursors.Hand;
+            btndica3.Font = new Font("Tahoma", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btndica3.ForeColor = Color.White;
+            btndica3.Location = new Point(166, 4);
+            btndica3.Margin = new Padding(3, 2, 3, 2);
             btndica3.Name = "btndica3";
-            btndica3.Size = new Size(88, 86);
+            btndica3.Size = new Size(77, 64);
             btndica3.TabIndex = 2;
-            btndica3.UseVisualStyleBackColor = true;
+            btndica3.Text = "3";
+            btndica3.UseVisualStyleBackColor = false;
             btndica3.Click += btndica3_Click_1;
             // 
             // btndica4
             // 
-            btndica4.BackgroundImage = (Image)resources.GetObject("btndica4.BackgroundImage");
+            btndica4.BackColor = Color.FromArgb(0, 14, 39);
             btndica4.BackgroundImageLayout = ImageLayout.Stretch;
-            btndica4.Font = new Font("Sitka Display", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btndica4.Location = new Point(285, 5);
+            btndica4.Cursor = Cursors.Hand;
+            btndica4.Font = new Font("Tahoma", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btndica4.ForeColor = Color.White;
+            btndica4.Location = new Point(247, 4);
+            btndica4.Margin = new Padding(3, 2, 3, 2);
             btndica4.Name = "btndica4";
-            btndica4.Size = new Size(88, 86);
+            btndica4.Size = new Size(77, 64);
             btndica4.TabIndex = 1;
-            btndica4.UseVisualStyleBackColor = true;
+            btndica4.Text = "4";
+            btndica4.UseVisualStyleBackColor = false;
             btndica4.Click += btndica4_Click;
             // 
             // btndica1
             // 
-            btndica1.BackgroundImage = (Image)resources.GetObject("btndica1.BackgroundImage");
+            btndica1.BackColor = Color.FromArgb(0, 14, 39);
             btndica1.BackgroundImageLayout = ImageLayout.Stretch;
-            btndica1.Font = new Font("Sitka Display", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btndica1.Location = new Point(3, 5);
+            btndica1.Cursor = Cursors.Hand;
+            btndica1.Font = new Font("Tahoma", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btndica1.ForeColor = Color.White;
+            btndica1.Location = new Point(3, 4);
+            btndica1.Margin = new Padding(3, 2, 3, 2);
             btndica1.Name = "btndica1";
-            btndica1.Size = new Size(88, 86);
+            btndica1.Size = new Size(77, 64);
             btndica1.TabIndex = 0;
-            btndica1.UseVisualStyleBackColor = true;
+            btndica1.Text = "1";
+            btndica1.UseVisualStyleBackColor = false;
             btndica1.Click += btndica1_Click;
-            // 
-            // userControl11
-            // 
-            userControl11.Location = new Point(33, 194);
-            userControl11.Name = "userControl11";
-            userControl11.Size = new Size(871, 367);
-            userControl11.TabIndex = 3;
-            // 
-            // userControl21
-            // 
-            userControl21.Location = new Point(33, 194);
-            userControl21.Name = "userControl21";
-            userControl21.Size = new Size(871, 367);
-            userControl21.TabIndex = 4;
-            // 
-            // userControl31
-            // 
-            userControl31.Location = new Point(30, 194);
-            userControl31.Name = "userControl31";
-            userControl31.Size = new Size(871, 367);
-            userControl31.TabIndex = 5;
-            // 
-            // userControl41
-            // 
-            userControl41.Location = new Point(33, 194);
-            userControl41.Name = "userControl41";
-            userControl41.Size = new Size(871, 367);
-            userControl41.TabIndex = 6;
-            // 
-            // userControl51
-            // 
-            userControl51.Location = new Point(33, 194);
-            userControl51.Name = "userControl51";
-            userControl51.Size = new Size(871, 367);
-            userControl51.TabIndex = 7;
             // 
             // lblcliquedica
             // 
             lblcliquedica.AutoSize = true;
             lblcliquedica.BackColor = Color.Transparent;
-            lblcliquedica.Font = new Font("Sitka Small", 9.1F);
-            lblcliquedica.Location = new Point(15, 85);
+            lblcliquedica.Font = new Font("Tahoma", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblcliquedica.ForeColor = Color.White;
+            lblcliquedica.Location = new Point(716, 16);
             lblcliquedica.Name = "lblcliquedica";
-            lblcliquedica.Size = new Size(221, 48);
+            lblcliquedica.Size = new Size(196, 38);
             lblcliquedica.TabIndex = 9;
             lblcliquedica.Text = "Clique no número da dica \r\npara vizualizá-la.";
+            lblcliquedica.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // userControl11
+            // 
+            userControl11.BackColor = Color.FromArgb(10, 29, 55);
+            userControl11.Location = new Point(29, 146);
+            userControl11.Margin = new Padding(3, 2, 3, 2);
+            userControl11.Name = "userControl11";
+            userControl11.Size = new Size(1026, 542);
+            userControl11.TabIndex = 3;
+            // 
+            // userControl21
+            // 
+            userControl21.BackColor = Color.FromArgb(10, 29, 55);
+            userControl21.Location = new Point(29, 146);
+            userControl21.Margin = new Padding(3, 2, 3, 2);
+            userControl21.Name = "userControl21";
+            userControl21.Size = new Size(1026, 542);
+            userControl21.TabIndex = 4;
+            // 
+            // userControl31
+            // 
+            userControl31.BackColor = Color.FromArgb(10, 29, 55);
+            userControl31.Location = new Point(26, 146);
+            userControl31.Margin = new Padding(3, 2, 3, 2);
+            userControl31.Name = "userControl31";
+            userControl31.Size = new Size(1026, 542);
+            userControl31.TabIndex = 5;
+            // 
+            // userControl41
+            // 
+            userControl41.BackColor = Color.FromArgb(10, 29, 55);
+            userControl41.Location = new Point(29, 146);
+            userControl41.Margin = new Padding(3, 2, 3, 2);
+            userControl41.Name = "userControl41";
+            userControl41.Size = new Size(1026, 542);
+            userControl41.TabIndex = 6;
+            // 
+            // userControl51
+            // 
+            userControl51.BackColor = Color.FromArgb(10, 29, 55);
+            userControl51.Location = new Point(29, 146);
+            userControl51.Margin = new Padding(3, 2, 3, 2);
+            userControl51.Name = "userControl51";
+            userControl51.Size = new Size(1026, 542);
+            userControl51.TabIndex = 7;
             // 
             // userControl61
             // 
-            userControl61.BackColor = Color.LightCyan;
-            userControl61.Location = new Point(33, 194);
+            userControl61.BackColor = Color.FromArgb(10, 29, 55);
+            userControl61.Location = new Point(27, 146);
+            userControl61.Margin = new Padding(3, 2, 3, 2);
             userControl61.Name = "userControl61";
-            userControl61.Size = new Size(871, 367);
+            userControl61.Size = new Size(1026, 542);
             userControl61.TabIndex = 8;
             // 
             // formInfo
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LightCyan;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackColor = Color.FromArgb(0, 14, 39);
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(928, 582);
+            ClientSize = new Size(1080, 720);
             Controls.Add(lblcliquedica);
+            Controls.Add(panel1);
+            Controls.Add(lblinfotext);
+            Controls.Add(lblinfo);
             Controls.Add(userControl61);
             Controls.Add(userControl51);
             Controls.Add(userControl41);
             Controls.Add(userControl31);
             Controls.Add(userControl21);
             Controls.Add(userControl11);
-            Controls.Add(panel1);
-            Controls.Add(lblinfotext);
-            Controls.Add(lblinfo);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 4, 3, 4);
             Name = "formInfo";
             Text = "formInfo";
             Load += formInfo_Load;
@@ -250,12 +286,12 @@
         private Button btndica2;
         private Button btndica3;
         private Button btndica4;
+        private Label lblcliquedica;
         private UserControl1 userControl11;
         private UserControl2 userControl21;
         private UserControl3 userControl31;
         private UserControl4 userControl41;
         private UserControl5 userControl51;
-        private Label lblcliquedica;
         private UserControl6 userControl61;
     }
 }

@@ -28,32 +28,64 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl2));
             lbluserdica2 = new Label();
+            pictureBox1 = new PictureBox();
+            panel1 = new Panel();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // lbluserdica2
             // 
-            lbluserdica2.AutoSize = true;
-            lbluserdica2.Location = new Point(214, 150);
+            lbluserdica2.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbluserdica2.ForeColor = Color.White;
+            lbluserdica2.Location = new Point(12, 169);
             lbluserdica2.Name = "lbluserdica2";
-            lbluserdica2.Size = new Size(117, 20);
+            lbluserdica2.Size = new Size(497, 147);
             lbluserdica2.TabIndex = 0;
-            lbluserdica2.Text = "aqui vai a dica 2";
+            lbluserdica2.Text = "Ao cuidar das plantas, use um regador. Durante o verão, molhe de manhãzinha ou à noite, pois isso reduz a perda por evaporação. No inverno, a rega pode ser feita dia sim, dia não, pela manhã";
+            lbluserdica2.TextAlign = ContentAlignment.MiddleCenter;
             lbluserdica2.Click += lbluserdica2_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(40, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(419, 485);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(0, 14, 39);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Location = new Point(515, 24);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(497, 485);
+            panel1.TabIndex = 2;
             // 
             // UserControl2
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(10, 29, 55);
+            Controls.Add(panel1);
             Controls.Add(lbluserdica2);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "UserControl2";
-            Size = new Size(603, 368);
+            Size = new Size(1026, 542);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
         private Label lbluserdica2;
+        private PictureBox pictureBox1;
+        private Panel panel1;
     }
 }
