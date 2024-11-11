@@ -16,7 +16,7 @@ namespace waterApp
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.Size = new Size(1080, 720);
+            this.Size = new Size(1132, 763);
             this.MaximizeBox = false;
             this.IsMdiContainer = true;
             mdiProp();
@@ -120,7 +120,7 @@ namespace waterApp
             if (sidebarExpand)
             {
                 sidebar.Width -= 5;
-                if (sidebar.Width <= 54)
+                if (sidebar.Width <= 52)
                 {
                     sidebarExpand = false;
                     sidebarTransition.Stop();
@@ -129,7 +129,7 @@ namespace waterApp
             else
             {
                 sidebar.Width += 5;
-                if (sidebar.Width >= 251)
+                if (sidebar.Width >= 252)
                 {
                     sidebarExpand = true;
                     sidebarTransition.Stop();
@@ -157,9 +157,10 @@ namespace waterApp
             OpenHomeForm();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             OpenInfoForm();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -167,9 +168,40 @@ namespace waterApp
             OpenGameForm();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+        private void button4_Click(object sender, EventArgs e)
         {
             OpenCreditsForm();
+        }
+
+        private void pnHome_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            OpenHomeForm();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            OpenInfoForm();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            OpenGameForm();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            OpenCreditsForm();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); // Fecha todo o aplicativo
         }
     }
 }

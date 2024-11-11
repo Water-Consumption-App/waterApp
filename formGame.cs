@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using System.Drawing;
+using System.Drawing.Drawing2D;
 
 namespace waterApp
 {
@@ -12,8 +14,11 @@ namespace waterApp
             this.FormBorderStyle = FormBorderStyle.None; // Remove bordas
         }
 
+
         private int vidaAgua = 50;
         private int vidaConsumo = 100;
+
+
 
         public class QuizQuestion
         {
@@ -159,6 +164,10 @@ namespace waterApp
 
             button4.Tag = 3;
             button4.Click += AnswerButton_Click;
+
+            // Definindo o valor máximo das barras
+            progressBar1.Maximum = vidaAgua;
+            progressBar2.Maximum = vidaConsumo;
         }
 
         private void AnswerButton_Click(object sender, EventArgs e)
@@ -207,15 +216,18 @@ namespace waterApp
 
         private void AtualizarVida()
         {
-            label3.Text = $"Vida Água: {vidaAgua}";
-            label4.Text = $"Vida Consumo: {vidaConsumo}";
+            //label3.Text = $"Vida Água: {vidaAgua}";
+            //label4.Text = $"Vida Consumo: {vidaConsumo}";
+            progressBar1.Value = vidaAgua;
+            progressBar2.Value = vidaConsumo;
         }
 
         private void ResetarJogo()
         {
             currentQuestionIndex = 0;
-            vidaAgua = 30;
+            vidaAgua = 50;
             vidaConsumo = 100;
+            AtualizarVida();
             DisplayQuestion();
         }
     }
