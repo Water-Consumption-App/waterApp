@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Victor Carbelotti\\source\\repos\\waterApp\\waterApp.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\trabaio elvio\\waterApp\\waterApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Victor Carbelotti\\source\\repos\\waterApp\\waterApp.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\trabaio elvio\\waterApp\\waterApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victor Carbelotti\\source\\repos\\waterApp\\waterApp.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\trabaio elvio\\waterApp\\waterApp.csproj",
         "projectName": "waterApp",
-        "projectPath": "C:\\Users\\Victor Carbelotti\\source\\repos\\waterApp\\waterApp.csproj",
-        "packagesPath": "C:\\Users\\Victor Carbelotti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victor Carbelotti\\source\\repos\\waterApp\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\trabaio elvio\\waterApp\\waterApp.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\trabaio elvio\\waterApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Victor Carbelotti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
