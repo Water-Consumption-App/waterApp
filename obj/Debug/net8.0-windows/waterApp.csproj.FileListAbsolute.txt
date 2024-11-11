@@ -19,9 +19,3 @@ C:\Users\Victor Carbelotti\source\repos\waterApp\obj\Debug\net8.0-windows\waterA
 C:\Users\Victor Carbelotti\source\repos\waterApp\obj\Debug\net8.0-windows\waterApp.formGame.resources
 C:\Users\Victor Carbelotti\source\repos\waterApp\obj\Debug\net8.0-windows\waterApp.formHome.resources
 C:\Users\Victor Carbelotti\source\repos\waterApp\obj\Debug\net8.0-windows\waterApp.formInfo.resources
-C:\Users\Victor Carbelotti\source\repos\waterApp\obj\Debug\net8.0-windows\waterApp.UserControl1.resources
-C:\Users\Victor Carbelotti\source\repos\waterApp\obj\Debug\net8.0-windows\waterApp.UserControl2.resources
-C:\Users\Victor Carbelotti\source\repos\waterApp\obj\Debug\net8.0-windows\waterApp.UserControl3.resources
-C:\Users\Victor Carbelotti\source\repos\waterApp\obj\Debug\net8.0-windows\waterApp.UserControl4.resources
-C:\Users\Victor Carbelotti\source\repos\waterApp\obj\Debug\net8.0-windows\waterApp.UserControl5.resources
-C:\Users\Victor Carbelotti\source\repos\waterApp\obj\Debug\net8.0-windows\waterApp.UserControl6.resources

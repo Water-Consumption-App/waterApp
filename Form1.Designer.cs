@@ -38,15 +38,15 @@
             pnHome = new Panel();
             pictureBox1 = new PictureBox();
             button1 = new Button();
-            pnInfo = new Panel();
-            pictureBox2 = new PictureBox();
-            button2 = new Button();
-            pnGame = new Panel();
-            pictureBox3 = new PictureBox();
-            button3 = new Button();
             pnCredits = new Panel();
             pictureBox4 = new PictureBox();
             button4 = new Button();
+            pnGame = new Panel();
+            pictureBox3 = new PictureBox();
+            button3 = new Button();
+            pnInfo = new Panel();
+            pictureBox2 = new PictureBox();
+            button2 = new Button();
             sidebarTransition = new System.Windows.Forms.Timer(components);
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             panel1.SuspendLayout();
@@ -55,12 +55,12 @@
             sidebar.SuspendLayout();
             pnHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            pnInfo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            pnGame.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             pnCredits.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            pnGame.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            pnInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -114,9 +114,9 @@
             // 
             sidebar.BackColor = Color.FromArgb(10, 29, 55);
             sidebar.Controls.Add(pnHome);
-            sidebar.Controls.Add(pnCredits);
-            sidebar.Controls.Add(pnGame);
             sidebar.Controls.Add(pnInfo);
+            sidebar.Controls.Add(pnGame);
+            sidebar.Controls.Add(pnCredits);
             sidebar.Dock = DockStyle.Left;
             sidebar.FlowDirection = FlowDirection.TopDown;
             sidebar.Location = new Point(0, 43);
@@ -164,43 +164,43 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
-            // pnInfo
+            // pnCredits
             // 
-            pnInfo.BackColor = Color.FromArgb(10, 29, 55);
-            pnInfo.Controls.Add(pictureBox2);
-            pnInfo.Controls.Add(button2);
-            pnInfo.ForeColor = Color.White;
-            pnInfo.Location = new Point(0, 165);
-            pnInfo.Margin = new Padding(0);
-            pnInfo.Name = "pnInfo";
-            pnInfo.Size = new Size(292, 55);
-            pnInfo.TabIndex = 4;
+            pnCredits.BackColor = Color.FromArgb(10, 29, 55);
+            pnCredits.Controls.Add(pictureBox4);
+            pnCredits.Controls.Add(button4);
+            pnCredits.ForeColor = Color.White;
+            pnCredits.Location = new Point(0, 165);
+            pnCredits.Margin = new Padding(0);
+            pnCredits.Name = "pnCredits";
+            pnCredits.Size = new Size(292, 55);
+            pnCredits.TabIndex = 6;
             // 
-            // pictureBox2
+            // pictureBox4
             // 
-            pictureBox2.BackColor = Color.Transparent;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(0, 11);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(48, 35);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 7;
-            pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox4_Click;
+            pictureBox4.BackColor = Color.Transparent;
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(0, 7);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(48, 34);
+            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox4.TabIndex = 7;
+            pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox2_Click;
             // 
-            // button2
+            // button4
             // 
-            button2.BackColor = Color.FromArgb(10, 29, 55);
-            button2.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.ForeColor = Color.White;
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(-6, -50);
-            button2.Name = "button2";
-            button2.Size = new Size(311, 153);
-            button2.TabIndex = 2;
-            button2.Text = "INFO";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            button4.BackColor = Color.FromArgb(10, 29, 55);
+            button4.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.ForeColor = Color.White;
+            button4.ImageAlign = ContentAlignment.MiddleLeft;
+            button4.Location = new Point(-5, -52);
+            button4.Name = "button4";
+            button4.Size = new Size(310, 153);
+            button4.TabIndex = 2;
+            button4.Text = "CRÉDITOS";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // pnGame
             // 
@@ -240,43 +240,43 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
-            // pnCredits
+            // pnInfo
             // 
-            pnCredits.BackColor = Color.FromArgb(10, 29, 55);
-            pnCredits.Controls.Add(pictureBox4);
-            pnCredits.Controls.Add(button4);
-            pnCredits.ForeColor = Color.White;
-            pnCredits.Location = new Point(0, 55);
-            pnCredits.Margin = new Padding(0);
-            pnCredits.Name = "pnCredits";
-            pnCredits.Size = new Size(292, 55);
-            pnCredits.TabIndex = 6;
+            pnInfo.BackColor = Color.FromArgb(10, 29, 55);
+            pnInfo.Controls.Add(pictureBox2);
+            pnInfo.Controls.Add(button2);
+            pnInfo.ForeColor = Color.White;
+            pnInfo.Location = new Point(0, 55);
+            pnInfo.Margin = new Padding(0);
+            pnInfo.Name = "pnInfo";
+            pnInfo.Size = new Size(292, 55);
+            pnInfo.TabIndex = 4;
             // 
-            // pictureBox4
+            // pictureBox2
             // 
-            pictureBox4.BackColor = Color.Transparent;
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(0, 7);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(48, 34);
-            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox4.TabIndex = 7;
-            pictureBox4.TabStop = false;
-            pictureBox4.Click += pictureBox2_Click;
+            pictureBox2.BackColor = Color.Transparent;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(0, 11);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(48, 35);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 7;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox4_Click;
             // 
-            // button4
+            // button2
             // 
-            button4.BackColor = Color.FromArgb(10, 29, 55);
-            button4.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.ForeColor = Color.White;
-            button4.ImageAlign = ContentAlignment.MiddleLeft;
-            button4.Location = new Point(-5, -52);
-            button4.Name = "button4";
-            button4.Size = new Size(310, 153);
-            button4.TabIndex = 2;
-            button4.Text = "CRÉDITOS";
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
+            button2.BackColor = Color.FromArgb(10, 29, 55);
+            button2.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.White;
+            button2.ImageAlign = ContentAlignment.MiddleLeft;
+            button2.Location = new Point(-6, -50);
+            button2.Name = "button2";
+            button2.Size = new Size(311, 153);
+            button2.TabIndex = 2;
+            button2.Text = "INFO";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // sidebarTransition
             // 
@@ -302,12 +302,12 @@
             sidebar.ResumeLayout(false);
             pnHome.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            pnInfo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            pnGame.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             pnCredits.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            pnGame.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            pnInfo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
