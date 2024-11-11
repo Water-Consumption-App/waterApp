@@ -186,7 +186,8 @@ namespace waterApp
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            OpenInfoForm();
+            OpenCreditsForm();
+
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -196,7 +197,7 @@ namespace waterApp
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            OpenCreditsForm();
+            OpenInfoForm();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
