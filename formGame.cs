@@ -191,13 +191,13 @@ namespace waterApp
             // Verificar se a vida da água ou do consumo chegou a zero
             if (vidaAgua <= 0)
             {
-                MessageBox.Show("Infelizmente o consumo ganhou e água do mundo acabou! Jogo encerrado.");
+                MessageBox.Show("Infelizmente o Dr. Consumo ganhou e água do mundo acabou! Jogo encerrado.");
                 ResetarJogo();
                 return;
             }
             else if (vidaConsumo <= 0)
             {
-                MessageBox.Show("Parabéns! Você venceu o consumo, agora a terra está mais saúdavel.");
+                MessageBox.Show("Parabéns! Você venceu o Dr. Consumo, agora a Terra está mais saúdavel.");
                 ResetarJogo();
                 return;
             }

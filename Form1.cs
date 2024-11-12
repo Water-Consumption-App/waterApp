@@ -5,14 +5,14 @@ using System.Windows.Forms;
 
 namespace waterApp
 {
-    public partial class Form1 : Form
+    public partial class formMain : Form
     {
         formHome home;
         formInfo info;
         formGame game;
         formCredits credits;
 
-        public Form1()
+        public formMain()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
@@ -20,6 +20,7 @@ namespace waterApp
             this.MaximizeBox = false;
             this.IsMdiContainer = true;
             mdiProp();
+            this.DoubleBuffered = true;
         }
 
         private void mdiProp()

@@ -30,9 +30,11 @@
             label1 = new Label();
             label2 = new Label();
             panel1 = new Panel();
+            pictureBox3 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -175,12 +177,23 @@
             panel1.Size = new Size(955, 400);
             panel1.TabIndex = 16;
             // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(362, 12);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(343, 166);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 17;
+            pictureBox3.TabStop = false;
+            // 
             // formGame
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 14, 39);
             ClientSize = new Size(1080, 720);
+            Controls.Add(pictureBox3);
             Controls.Add(panel1);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -195,6 +208,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -213,5 +227,6 @@
         private Label label1;
         private Label label2;
         private Panel panel1;
+        private PictureBox pictureBox3;
     }
 }

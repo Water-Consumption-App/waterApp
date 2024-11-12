@@ -1,6 +1,6 @@
 ﻿namespace waterApp
 {
-    partial class Form1
+    partial class formMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formMain));
             panel1 = new Panel();
             pictureBox5 = new PictureBox();
             label1 = new Label();
@@ -292,7 +292,7 @@
             sidebarTransition.Interval = 10;
             sidebarTransition.Tick += sidebarTransition_Tick;
             // 
-            // Form1
+            // formMain
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.FromArgb(30, 30, 30);
@@ -301,7 +301,7 @@
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             IsMdiContainer = true;
-            Name = "Form1";
+            Name = "formMain";
             Text = "Form1";
             Load += Form1_Load;
             panel1.ResumeLayout(false);
