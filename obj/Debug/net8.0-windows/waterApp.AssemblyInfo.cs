@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("waterApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0329c3156c3acbb9250fd18b0e83f069f7bb833e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6183c5d9f4e0699e0128084fcdd642cec64d6f16")]
 [assembly: System.Reflection.AssemblyProductAttribute("waterApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("waterApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
