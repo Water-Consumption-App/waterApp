@@ -12,6 +12,8 @@ namespace waterApp
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None; // Remove bordas
+            this.DoubleBuffered = true;
+
         }
 
 

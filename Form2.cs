@@ -34,15 +34,24 @@ namespace waterApp
                 formmain.FormClosed += (s, e) => this.Close();
 
                 formmain.Show(); // Exibe formMain de forma independente
-
-                // Esconde o formulário de entrada sem fechá-lo
-                this.Hide();
             }
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-            OpenFormMain(); // Abre formMain ao clicar em "Entrar"
+            // Abre o Form de loading
+            FormLoading formLoading = new FormLoading();
+            formLoading.Show(); // Exibe a tela de loading
+
+            // Fecha a tela de entrada
+            this.Hide();
+
+            // Quando a tela de loading for fechada, abre o Form principal
+            formLoading.FormClosed += (s, args) =>
+            {
+                OpenFormMain();
+                this.Close(); // Fecha a tela de loading após o form principal ser aberto
+            };
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)

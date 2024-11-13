@@ -21,8 +21,11 @@ namespace waterApp
             this.MaximizeBox = false;
             this.IsMdiContainer = true;
             mdiProp();
+
+            // Ativa o DoubleBuffered para evitar flickering
             this.DoubleBuffered = true;
         }
+
 
         private void mdiProp()
         {
