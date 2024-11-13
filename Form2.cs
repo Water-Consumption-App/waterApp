@@ -11,6 +11,7 @@ namespace waterApp
         public Form2()
         {
             InitializeComponent();
+            this.Text = "Poseidon's Journey"; // Define o título da janela
             this.StartPosition = FormStartPosition.CenterScreen;
             this.Size = new Size(1132, 763);
             this.MaximizeBox = false;

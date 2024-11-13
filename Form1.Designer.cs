@@ -95,9 +95,9 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(45, 9);
             label1.Name = "label1";
-            label1.Size = new Size(254, 25);
+            label1.Size = new Size(213, 25);
             label1.TabIndex = 2;
-            label1.Text = "Water Comsuption App";
+            label1.Text = "Poseidon's Journey";
             // 
             // btnHam
             // 
@@ -300,6 +300,7 @@
             Controls.Add(sidebar);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             IsMdiContainer = true;
             Name = "formMain";
             Text = "Form1";

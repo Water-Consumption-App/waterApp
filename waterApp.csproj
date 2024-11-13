@@ -7,8 +7,19 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <SignAssembly>False</SignAssembly>
-    <AssemblyOriginatorKeyFile>Poseidon's Journey</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>$(AssemblyName)</AssemblyOriginatorKeyFile>
+    <PackageId>$(AssemblyName)</PackageId>
+    <Title></Title>
+    <Authors>$(AssemblyName)</Authors>
+    <Product>$(AssemblyName)</Product>
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+    <ApplicationIcon>poseidon (1).ico</ApplicationIcon>
+    <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="poseidon (1).ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">

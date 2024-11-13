@@ -71,6 +71,7 @@
             Controls.Add(pictureBox5);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form2";
             SizeGripStyle = SizeGripStyle.Show;
             Text = "Form2";
