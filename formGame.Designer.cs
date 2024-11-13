@@ -23,8 +23,6 @@
             button3 = new Button();
             button4 = new Button();
             label5 = new Label();
-            progressBar1 = new ProgressBar();
-            progressBar2 = new ProgressBar();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             label1 = new Label();
@@ -104,24 +102,6 @@
             label5.Text = "Pergunta aqui...";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // progressBar1
-            // 
-            progressBar1.BackColor = Color.LightBlue;
-            progressBar1.ForeColor = Color.DodgerBlue;
-            progressBar1.Location = new Point(56, 158);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(300, 20);
-            progressBar1.TabIndex = 10;
-            // 
-            // progressBar2
-            // 
-            progressBar2.BackColor = Color.LightGreen;
-            progressBar2.ForeColor = Color.Red;
-            progressBar2.Location = new Point(711, 158);
-            progressBar2.Name = "progressBar2";
-            progressBar2.Size = new Size(300, 20);
-            progressBar2.TabIndex = 11;
-            // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
@@ -199,8 +179,6 @@
             Controls.Add(label1);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
-            Controls.Add(progressBar1);
-            Controls.Add(progressBar2);
             FormBorderStyle = FormBorderStyle.None;
             Name = "formGame";
             Text = "Form Game";
@@ -220,8 +198,6 @@
         private Button button3;
         private Button button4;
         private Label label5;
-        private ProgressBar progressBar1;
-        private ProgressBar progressBar2;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private Label label1;

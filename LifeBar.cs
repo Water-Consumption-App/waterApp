@@ -3,81 +3,67 @@ using System.Windows.Forms;
 
 public class LifeBar : Panel
 {
-    private int _value;
-    private int _maximum;
-    private Color _barColor;
+    private int _progress = 0;
+    public Color ProgressBarColor { get; set; } = ColorTranslator.FromHtml("#f2b671"); // Cor personalizada
+    public int BorderRadius { get; set; } = 10;
 
-    // Propriedade para o valor atual da vida
-    public int Value
+    // Tamanho da barra de progresso
+    public int ProgressBarWidth { get; set; } = 400;  // Largura fixa para a barra
+    public int ProgressBarHeight { get; set; } = 40;  // Altura fixa para a barra
+
+    public int Progress
     {
-        get { return _value; }
+        get { return _progress; }
         set
         {
-            if (value < 0) _value = 0;
-            else if (value > _maximum) _value = _maximum;
-            else _value = value;
-            Invalidate(); // Redesenha a barra quando o valor mudar
+            _progress = Math.Min(100, Math.Max(0, value)); // Limita o progresso entre 0 e 100
+            Invalidate(); // Redesenha a barra de progresso
         }
     }
 
-    // Propriedade para o valor máximo da vida
-    public int Maximum
-    {
-        get { return _maximum; }
-        set
-        {
-            if (value > 0) _maximum = value;
-            else _maximum = 1;
-            Invalidate(); // Redesenha a barra quando o valor máximo mudar
-        }
-    }
-
-    // Cor da barra de vida
-    public Color BarColor
-    {
-        get { return _barColor; }
-        set
-        {
-            _barColor = value;
-            Invalidate(); // Redesenha a barra quando a cor mudar
-        }
-    }
-
-    // Construtor do controle LifeBar
     public LifeBar()
     {
-        this.DoubleBuffered = true;
-        this.SetStyle(ControlStyles.UserPaint, true);
-        this.SetStyle(ControlStyles.AllPaintingInWmPaint, true);
-        this.SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
-        this.BackColor = Color.Transparent;
+        DoubleBuffered = true; // Evita flickering
+        this.BackColor = Color.Transparent; // Define o fundo como transparente
+        this.Size = new Size(720, 480);  // Define o tamanho da tela
     }
 
-    // Método para desenhar a barra de vida com cantos arredondados
     protected override void OnPaint(PaintEventArgs e)
     {
         base.OnPaint(e);
 
-        // Desenhando o fundo da barra (com cantos arredondados)
-        using (Brush backgroundBrush = new SolidBrush(Color.Gray))
+        using (var progressBrush = new SolidBrush(ProgressBarColor))
         {
-            e.Graphics.FillRectangle(backgroundBrush, 0, 0, this.Width, this.Height);
+            // Desenha a barra de progresso com bordas arredondadas
+            e.Graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // Calcula a posição para centralizar a barra
+            int posX = (this.Width - ProgressBarWidth) / 2;
+            int posY = (this.Height - ProgressBarHeight) / 2;
+
+            // Desenha o fundo da barra com bordas arredondadas (transparente)
+            using (var backBrush = new SolidBrush(Color.Transparent))
+            {
+                DrawRoundedRectangle(e.Graphics, new Rectangle(posX, posY, ProgressBarWidth, ProgressBarHeight), BorderRadius, backBrush);
+            }
+
+            // Desenha a barra de progresso com bordas arredondadas
+            int width = (int)(ProgressBarWidth * (_progress / 100.0));
+            DrawRoundedRectangle(e.Graphics, new Rectangle(posX, posY, width, ProgressBarHeight), BorderRadius, progressBrush);
         }
+    }
 
-        // Calculando a largura da barra proporcional ao valor da vida
-        float percentage = (float)_value / _maximum;
-        int barWidth = (int)(this.Width * percentage); // Largura da barra proporcional
-
-        // Desenhando a barra de vida com a cor definida e cantos arredondados
-        using (Brush barBrush = new SolidBrush(_barColor))
+    private void DrawRoundedRectangle(Graphics g, Rectangle bounds, int radius, Brush brush)
+    {
+        using (var path = new System.Drawing.Drawing2D.GraphicsPath())
         {
-            e.Graphics.FillRectangle(barBrush, 0, 0, barWidth, this.Height);
-        }
-
-        // Desenhando a borda com cantos arredondados
-        using (Pen borderPen = new Pen(Color.Black, 2))
-        {
-            e.Graphics.DrawRectangle(borderPen, 0, 0, this.Width - 1, this.Height - 1);
+            float diameter = radius * 2;
+            path.AddArc(bounds.Left, bounds.Top, diameter, diameter, 180, 90);
+            path.AddArc(bounds.Right - diameter, bounds.Top, diameter, diameter, 270, 90);
+            path.AddArc(bounds.Right - diameter, bounds.Bottom - diameter, diameter, diameter, 0, 90);
+            path.AddArc(bounds.Left, bounds.Bottom - diameter, diameter, diameter, 90, 90);
+            path.CloseFigure();
+            g.FillPath(brush, path);
         }
     }
 }

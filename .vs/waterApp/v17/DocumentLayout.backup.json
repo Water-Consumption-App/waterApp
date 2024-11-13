@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\victor carbelotti\\documents\\github\\waterapp\\customprogressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:customprogressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\victor carbelotti\\documents\\github\\waterapp\\formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\victor carbelotti\\documents\\github\\waterapp\\lifebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:lifebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\victor carbelotti\\documents\\github\\waterapp\\formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\victor carbelotti\\documents\\github\\waterapp\\formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\victor carbelotti\\documents\\github\\waterapp\\formloading.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:formloading.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\victor carbelotti\\documents\\github\\waterapp\\customprogressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:customprogressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\victor carbelotti\\documents\\github\\waterapp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:formloading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\victor carbelotti\\documents\\github\\waterapp\\formloading.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:formloading.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -88,27 +88,27 @@
               "RelativeDocumentMoniker": "LifeBar.cs",
               "ToolTip": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\LifeBar.cs",
               "RelativeToolTip": "LifeBar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T04:25:53.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "formGame.cs",
               "DocumentMoniker": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\formGame.cs",
               "RelativeDocumentMoniker": "formGame.cs",
               "ToolTip": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\formGame.cs",
               "RelativeToolTip": "formGame.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAiwA4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABgBAAAAAAAAAAAswCwBAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T04:18:14.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "formGame.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\formGame.cs",
               "RelativeDocumentMoniker": "formGame.cs",
@@ -120,33 +120,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CustomProgressBar.cs",
               "DocumentMoniker": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\CustomProgressBar.cs",
               "RelativeDocumentMoniker": "CustomProgressBar.cs",
               "ToolTip": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\CustomProgressBar.cs",
               "RelativeToolTip": "CustomProgressBar.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAcwDQAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwEQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T03:53:12.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "FormLoading.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\FormLoading.Designer.cs",
               "RelativeDocumentMoniker": "FormLoading.Designer.cs",
               "ToolTip": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\FormLoading.Designer.cs",
               "RelativeToolTip": "FormLoading.Designer.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T03:09:14.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "FormLoading.cs",
               "DocumentMoniker": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\FormLoading.cs",
               "RelativeDocumentMoniker": "FormLoading.cs",
@@ -159,19 +159,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FormLoading.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\FormLoading.cs",
               "RelativeDocumentMoniker": "FormLoading.cs",
               "ToolTip": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\FormLoading.cs [Projeto]",
               "RelativeToolTip": "FormLoading.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:03:09.352Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-11-13T03:03:09.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -191,12 +190,11 @@
               "ToolTip": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\Form1.cs [Projeto]",
               "RelativeToolTip": "Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T00:01:54.683Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-11-13T00:01:54.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -209,19 +207,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form2.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\Form2.cs [Projeto]",
               "RelativeToolTip": "Form2.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T00:01:42.442Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-11-13T00:01:42.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "formInfo.cs",
               "DocumentMoniker": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\formInfo.cs",
               "RelativeDocumentMoniker": "formInfo.cs",
@@ -234,15 +231,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "formInfo.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\formInfo.cs",
               "RelativeDocumentMoniker": "formInfo.cs",
               "ToolTip": "C:\\Users\\Victor Carbelotti\\Documents\\GitHub\\waterApp\\formInfo.cs [Projeto]",
               "RelativeToolTip": "formInfo.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T00:01:21.064Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-11-13T00:01:21.064Z"
             },
             {
               "$type": "Document",
