@@ -42,9 +42,9 @@
             lbluserdica2.ForeColor = Color.White;
             lbluserdica2.Location = new Point(12, 169);
             lbluserdica2.Name = "lbluserdica2";
-            lbluserdica2.Size = new Size(497, 147);
+            lbluserdica2.Size = new Size(497, 193);
             lbluserdica2.TabIndex = 0;
-            lbluserdica2.Text = "Ao cuidar das plantas, use um regador. Durante o verão, molhe de manhãzinha ou à noite, pois isso reduz a perda por evaporação. No inverno, a rega pode ser feita dia sim, dia não, pela manhã";
+            lbluserdica2.Text = resources.GetString("lbluserdica2.Text");
             lbluserdica2.TextAlign = ContentAlignment.MiddleCenter;
             lbluserdica2.Click += lbluserdica2_Click;
             // 
@@ -71,7 +71,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(10, 29, 55);
+            BackColor = Color.FromArgb(42, 42, 69);
             Controls.Add(panel1);
             Controls.Add(lbluserdica2);
             Margin = new Padding(3, 2, 3, 2);

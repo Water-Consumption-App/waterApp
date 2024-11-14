@@ -23,21 +23,21 @@
             button3 = new Button();
             button4 = new Button();
             label5 = new Label();
-            progressBar1 = new ProgressBar();
-            progressBar2 = new ProgressBar();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
             panel1 = new Panel();
+            pictureBox3 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.BackColor = Color.FromArgb(43, 92, 153);
+            button1.BackColor = Color.FromArgb(81, 101, 142);
             button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Tahoma", 14.25F, FontStyle.Bold);
@@ -51,7 +51,7 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.FromArgb(43, 92, 153);
+            button2.BackColor = Color.FromArgb(81, 101, 142);
             button2.Cursor = Cursors.Hand;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Tahoma", 14.25F, FontStyle.Bold);
@@ -65,7 +65,7 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.FromArgb(43, 92, 153);
+            button3.BackColor = Color.FromArgb(81, 101, 142);
             button3.Cursor = Cursors.Hand;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Tahoma", 14.25F, FontStyle.Bold);
@@ -79,7 +79,7 @@
             // 
             // button4
             // 
-            button4.BackColor = Color.FromArgb(43, 92, 153);
+            button4.BackColor = Color.FromArgb(81, 101, 142);
             button4.Cursor = Cursors.Hand;
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Tahoma", 14.25F, FontStyle.Bold);
@@ -93,6 +93,7 @@
             // 
             // label5
             // 
+            label5.BackColor = Color.FromArgb(42, 42, 69);
             label5.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.White;
             label5.Location = new Point(92, 113);
@@ -101,24 +102,6 @@
             label5.TabIndex = 9;
             label5.Text = "Pergunta aqui...";
             label5.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // progressBar1
-            // 
-            progressBar1.BackColor = Color.LightBlue;
-            progressBar1.ForeColor = Color.DodgerBlue;
-            progressBar1.Location = new Point(56, 158);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(300, 20);
-            progressBar1.TabIndex = 10;
-            // 
-            // progressBar2
-            // 
-            progressBar2.BackColor = Color.LightGreen;
-            progressBar2.ForeColor = Color.Red;
-            progressBar2.Location = new Point(711, 158);
-            progressBar2.Name = "progressBar2";
-            progressBar2.Size = new Size(300, 20);
-            progressBar2.TabIndex = 11;
             // 
             // pictureBox1
             // 
@@ -164,7 +147,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(10, 29, 55);
+            panel1.BackColor = Color.FromArgb(42, 42, 69);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(button2);
             panel1.Controls.Add(button3);
@@ -175,19 +158,28 @@
             panel1.Size = new Size(955, 400);
             panel1.TabIndex = 16;
             // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(362, 12);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(343, 166);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 17;
+            pictureBox3.TabStop = false;
+            // 
             // formGame
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 14, 39);
             ClientSize = new Size(1080, 720);
+            Controls.Add(pictureBox3);
             Controls.Add(panel1);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
-            Controls.Add(progressBar1);
-            Controls.Add(progressBar2);
             FormBorderStyle = FormBorderStyle.None;
             Name = "formGame";
             Text = "Form Game";
@@ -195,6 +187,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -206,12 +199,11 @@
         private Button button3;
         private Button button4;
         private Label label5;
-        private ProgressBar progressBar1;
-        private ProgressBar progressBar2;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private Label label1;
         private Label label2;
         private Panel panel1;
+        private PictureBox pictureBox3;
     }
 }

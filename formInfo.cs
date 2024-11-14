@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,6 +17,7 @@ namespace waterApp
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None; // Remove bordas
+            this.DoubleBuffered = true;
         }
 
         private void formInfo_Load(object sender, EventArgs e)

@@ -1,6 +1,6 @@
 ﻿namespace waterApp
 {
-    partial class Form1
+    partial class formMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formMain));
             panel1 = new Panel();
             pictureBox5 = new PictureBox();
             label1 = new Label();
@@ -95,9 +95,9 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(45, 9);
             label1.Name = "label1";
-            label1.Size = new Size(254, 25);
+            label1.Size = new Size(213, 25);
             label1.TabIndex = 2;
-            label1.Text = "Water Comsuption App";
+            label1.Text = "Poseidon's Journey";
             // 
             // btnHam
             // 
@@ -292,7 +292,7 @@
             sidebarTransition.Interval = 10;
             sidebarTransition.Tick += sidebarTransition_Tick;
             // 
-            // Form1
+            // formMain
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.FromArgb(30, 30, 30);
@@ -300,8 +300,9 @@
             Controls.Add(sidebar);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             IsMdiContainer = true;
-            Name = "Form1";
+            Name = "formMain";
             Text = "Form1";
             Load += Form1_Load;
             panel1.ResumeLayout(false);

@@ -5,22 +5,27 @@ using System.Windows.Forms;
 
 namespace waterApp
 {
-    public partial class Form1 : Form
+    public partial class formMain : Form
     {
         formHome home;
         formInfo info;
         formGame game;
         formCredits credits;
 
-        public Form1()
+        public formMain()
         {
             InitializeComponent();
+            this.Text = "Poseidon's Journey"; // Define o título da janela
             this.StartPosition = FormStartPosition.CenterScreen;
             this.Size = new Size(1132, 763);
             this.MaximizeBox = false;
             this.IsMdiContainer = true;
             mdiProp();
+
+            // Ativa o DoubleBuffered para evitar flickering
+            this.DoubleBuffered = true;
         }
+
 
         private void mdiProp()
         {
