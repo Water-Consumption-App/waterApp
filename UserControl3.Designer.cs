@@ -40,11 +40,11 @@
             // 
             lbluserdica3.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbluserdica3.ForeColor = Color.White;
-            lbluserdica3.Location = new Point(3, 210);
+            lbluserdica3.Location = new Point(8, 200);
             lbluserdica3.Name = "lbluserdica3";
-            lbluserdica3.Size = new Size(498, 88);
+            lbluserdica3.Size = new Size(498, 145);
             lbluserdica3.TabIndex = 0;
-            lbluserdica3.Text = "A água que sai da máquina de lavar pode ser útil em outras atividades, como lavar a calçada, a varanda ou outra parte da casa.";
+            lbluserdica3.Text = resources.GetString("lbluserdica3.Text");
             lbluserdica3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
@@ -70,7 +70,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(10, 29, 55);
+            BackColor = Color.FromArgb(42, 42, 69);
             Controls.Add(lbluserdica3);
             Controls.Add(panel1);
             Margin = new Padding(3, 2, 3, 2);

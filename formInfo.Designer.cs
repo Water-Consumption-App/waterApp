@@ -87,7 +87,7 @@
             // 
             // btndica6
             // 
-            btndica6.BackColor = Color.FromArgb(0, 14, 39);
+            btndica6.BackColor = Color.FromArgb(81, 101, 142);
             btndica6.BackgroundImageLayout = ImageLayout.Stretch;
             btndica6.Cursor = Cursors.Hand;
             btndica6.Font = new Font("Tahoma", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -103,7 +103,7 @@
             // 
             // btndica5
             // 
-            btndica5.BackColor = Color.FromArgb(0, 14, 39);
+            btndica5.BackColor = Color.FromArgb(81, 101, 142);
             btndica5.BackgroundImageLayout = ImageLayout.Stretch;
             btndica5.Cursor = Cursors.Hand;
             btndica5.Font = new Font("Tahoma", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -119,7 +119,7 @@
             // 
             // btndica2
             // 
-            btndica2.BackColor = Color.FromArgb(0, 14, 39);
+            btndica2.BackColor = Color.FromArgb(81, 101, 142);
             btndica2.BackgroundImageLayout = ImageLayout.Stretch;
             btndica2.Cursor = Cursors.Hand;
             btndica2.Font = new Font("Tahoma", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -135,7 +135,7 @@
             // 
             // btndica3
             // 
-            btndica3.BackColor = Color.FromArgb(0, 14, 39);
+            btndica3.BackColor = Color.FromArgb(81, 101, 142);
             btndica3.BackgroundImageLayout = ImageLayout.Stretch;
             btndica3.Cursor = Cursors.Hand;
             btndica3.Font = new Font("Tahoma", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -151,7 +151,7 @@
             // 
             // btndica4
             // 
-            btndica4.BackColor = Color.FromArgb(0, 14, 39);
+            btndica4.BackColor = Color.FromArgb(81, 101, 142);
             btndica4.BackgroundImageLayout = ImageLayout.Stretch;
             btndica4.Cursor = Cursors.Hand;
             btndica4.Font = new Font("Tahoma", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -167,11 +167,11 @@
             // 
             // btndica1
             // 
-            btndica1.BackColor = Color.FromArgb(0, 14, 39);
+            btndica1.BackColor = Color.FromArgb(81, 101, 142);
             btndica1.BackgroundImageLayout = ImageLayout.Stretch;
             btndica1.Cursor = Cursors.Hand;
             btndica1.Font = new Font("Tahoma", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btndica1.ForeColor = Color.White;
+            btndica1.ForeColor = SystemColors.Window;
             btndica1.Location = new Point(3, 4);
             btndica1.Margin = new Padding(3, 2, 3, 2);
             btndica1.Name = "btndica1";
@@ -185,18 +185,18 @@
             // 
             lblcliquedica.AutoSize = true;
             lblcliquedica.BackColor = Color.Transparent;
-            lblcliquedica.Font = new Font("Tahoma", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblcliquedica.Font = new Font("Tahoma", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             lblcliquedica.ForeColor = Color.White;
-            lblcliquedica.Location = new Point(716, 16);
+            lblcliquedica.Location = new Point(696, 20);
             lblcliquedica.Name = "lblcliquedica";
-            lblcliquedica.Size = new Size(196, 38);
+            lblcliquedica.Size = new Size(220, 38);
             lblcliquedica.TabIndex = 9;
             lblcliquedica.Text = "Clique no número da dica \r\npara vizualizá-la.";
             lblcliquedica.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // userControl11
             // 
-            userControl11.BackColor = Color.FromArgb(10, 29, 55);
+            userControl11.BackColor = Color.FromArgb(42, 42, 69);
             userControl11.Location = new Point(29, 146);
             userControl11.Margin = new Padding(3, 2, 3, 2);
             userControl11.Name = "userControl11";
@@ -205,7 +205,7 @@
             // 
             // userControl21
             // 
-            userControl21.BackColor = Color.FromArgb(10, 29, 55);
+            userControl21.BackColor = Color.FromArgb(42, 42, 69);
             userControl21.Location = new Point(29, 146);
             userControl21.Margin = new Padding(3, 2, 3, 2);
             userControl21.Name = "userControl21";
@@ -214,7 +214,7 @@
             // 
             // userControl31
             // 
-            userControl31.BackColor = Color.FromArgb(10, 29, 55);
+            userControl31.BackColor = Color.FromArgb(42, 42, 69);
             userControl31.Location = new Point(26, 146);
             userControl31.Margin = new Padding(3, 2, 3, 2);
             userControl31.Name = "userControl31";
@@ -223,7 +223,7 @@
             // 
             // userControl41
             // 
-            userControl41.BackColor = Color.FromArgb(10, 29, 55);
+            userControl41.BackColor = Color.FromArgb(42, 42, 69);
             userControl41.Location = new Point(29, 146);
             userControl41.Margin = new Padding(3, 2, 3, 2);
             userControl41.Name = "userControl41";
@@ -232,7 +232,7 @@
             // 
             // userControl51
             // 
-            userControl51.BackColor = Color.FromArgb(10, 29, 55);
+            userControl51.BackColor = Color.FromArgb(42, 42, 69);
             userControl51.Location = new Point(29, 146);
             userControl51.Margin = new Padding(3, 2, 3, 2);
             userControl51.Name = "userControl51";
@@ -241,8 +241,8 @@
             // 
             // userControl61
             // 
-            userControl61.BackColor = Color.FromArgb(10, 29, 55);
-            userControl61.Location = new Point(27, 146);
+            userControl61.BackColor = Color.FromArgb(42, 42, 69);
+            userControl61.Location = new Point(26, 146);
             userControl61.Margin = new Padding(3, 2, 3, 2);
             userControl61.Name = "userControl61";
             userControl61.Size = new Size(1026, 542);

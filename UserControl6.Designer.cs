@@ -40,11 +40,11 @@
             // 
             lbluserdica6.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbluserdica6.ForeColor = Color.White;
-            lbluserdica6.Location = new Point(16, 203);
+            lbluserdica6.Location = new Point(16, 175);
             lbluserdica6.Name = "lbluserdica6";
-            lbluserdica6.Size = new Size(463, 101);
+            lbluserdica6.Size = new Size(483, 202);
             lbluserdica6.TabIndex = 0;
-            lbluserdica6.Text = "Deixe a torneira fechada enquanto ensaboa a louça e abra apenas no momento de enxaguar;";
+            lbluserdica6.Text = resources.GetString("lbluserdica6.Text");
             lbluserdica6.TextAlign = ContentAlignment.MiddleCenter;
             lbluserdica6.Click += lbluserdica6_Click;
             // 
@@ -71,7 +71,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(10, 29, 55);
+            BackColor = Color.FromArgb(42, 42, 69);
             Controls.Add(panel1);
             Controls.Add(lbluserdica6);
             Margin = new Padding(3, 2, 3, 2);

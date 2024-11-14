@@ -44,7 +44,7 @@
             lbluserdica4.Name = "lbluserdica4";
             lbluserdica4.Size = new Size(489, 150);
             lbluserdica4.TabIndex = 0;
-            lbluserdica4.Text = "Ao escovar os dentes, lavar o rosto ou fazer a barba, mantenha a torneira fechada. Abra somente quando for mesmo necessário;";
+            lbluserdica4.Text = "Mantenha a torneira fechada ao escovar os dentes, lavar o rosto ou fazer a barba. Use a água apenas no momento de enxaguar. Esse simples hábito ajuda a economizar litros de água todos os dias!";
             lbluserdica4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel1
@@ -70,7 +70,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(10, 29, 55);
+            BackColor = Color.FromArgb(42, 42, 69);
             Controls.Add(panel1);
             Controls.Add(lbluserdica4);
             Margin = new Padding(3, 2, 3, 2);
