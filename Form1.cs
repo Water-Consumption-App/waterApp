@@ -5,22 +5,27 @@ using System.Windows.Forms;
 
 namespace waterApp
 {
-    public partial class Form1 : Form
+    public partial class formMain : Form
     {
-        formHome home;
+        btn_cntc home;
         formInfo info;
         formGame game;
         formCredits credits;
 
-        public Form1()
+        public formMain()
         {
             InitializeComponent();
+            this.Text = "Poseidon's Journey"; // Define o título da janela
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.Size = new Size(1080, 720);
+            this.Size = new Size(1132, 763);
             this.MaximizeBox = false;
             this.IsMdiContainer = true;
             mdiProp();
+
+            // Ativa o DoubleBuffered para evitar flickering
+            this.DoubleBuffered = true;
         }
+
 
         private void mdiProp()
         {
@@ -36,7 +41,7 @@ namespace waterApp
         {
             if (home == null)
             {
-                home = new formHome();
+                home = new btn_cntc();
                 home.FormClosed += (s, e) => home = null;
                 ShowForm(home);
             }
@@ -60,7 +65,7 @@ namespace waterApp
         {
             if (home == null || home.IsDisposed)
             {
-                home = new formHome();
+                home = new btn_cntc();
                 home.FormClosed += (s, e) => home = null;
                 ShowForm(home);
             }
@@ -120,7 +125,7 @@ namespace waterApp
             if (sidebarExpand)
             {
                 sidebar.Width -= 5;
-                if (sidebar.Width <= 54)
+                if (sidebar.Width <= 52)
                 {
                     sidebarExpand = false;
                     sidebarTransition.Stop();
@@ -129,7 +134,7 @@ namespace waterApp
             else
             {
                 sidebar.Width += 5;
-                if (sidebar.Width >= 251)
+                if (sidebar.Width >= 252)
                 {
                     sidebarExpand = true;
                     sidebarTransition.Stop();
@@ -157,9 +162,10 @@ namespace waterApp
             OpenHomeForm();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             OpenInfoForm();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -167,9 +173,41 @@ namespace waterApp
             OpenGameForm();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+        private void button4_Click(object sender, EventArgs e)
         {
             OpenCreditsForm();
+        }
+
+        private void pnHome_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            OpenHomeForm();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            OpenCreditsForm();
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            OpenGameForm();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            OpenInfoForm();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); // Fecha todo o aplicativo
         }
     }
 }

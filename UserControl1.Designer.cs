@@ -76,6 +76,7 @@
             Margin = new Padding(3, 2, 3, 2);
             Name = "UserControl1";
             Size = new Size(1026, 542);
+            Load += UserControl1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             ResumeLayout(false);
