@@ -15,6 +15,7 @@ namespace waterApp
         public formGame()
         {
             InitializeComponent();
+            this.Size = new Size(1080, 720);
             this.FormBorderStyle = FormBorderStyle.None; // Remove bordas
             this.DoubleBuffered = true;
 

@@ -11,6 +11,7 @@ namespace waterApp
         formInfo info;
         formGame game;
         formCredits credits;
+        formDados dados;
 
         public formMain()
         {
@@ -18,6 +19,7 @@ namespace waterApp
             this.Text = "Poseidon's Journey"; // Define o título da janela
             this.StartPosition = FormStartPosition.CenterScreen;
             this.Size = new Size(1132, 763);
+            this.FormBorderStyle = FormBorderStyle.None; // Remove bordas
             this.MaximizeBox = false;
             this.IsMdiContainer = true;
             mdiProp();
@@ -117,6 +119,20 @@ namespace waterApp
             }
         }
 
+        private void OpenDadosForm()
+        {
+            if (dados == null || dados.IsDisposed)
+            {
+                dados = new formDados();
+                dados.FormClosed += (s, e) => dados = null;
+                ShowForm(dados);
+            }
+            else
+            {
+                dados.Activate();
+            }
+        }
+
         // Sidebar
         private bool sidebarExpand = false;
 
@@ -202,7 +218,7 @@ namespace waterApp
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            OpenInfoForm();
+            OpenDadosForm();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)

@@ -16,6 +16,7 @@ namespace waterApp
         public formHome()
         {
             InitializeComponent();
+            this.Size = new Size(1080, 720);
             this.FormBorderStyle = FormBorderStyle.None; // Remove bordas
         }
 
