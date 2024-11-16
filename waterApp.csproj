@@ -12,13 +12,13 @@
     <Title></Title>
     <Authors>$(AssemblyName)</Authors>
     <Product>$(AssemblyName)</Product>
-    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
-    <ApplicationIcon>poseidon (1).ico</ApplicationIcon>
+    <AssemblyName>Poseidon's Journey</AssemblyName>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
     <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="poseidon (1).ico" />
+    <Content Include="icon.ico" />
   </ItemGroup>
 
   <ItemGroup>
