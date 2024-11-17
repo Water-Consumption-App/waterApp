@@ -4,13 +4,34 @@
     <Compile Update="CustomProgressBar.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="DadosControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DadosControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DadosControl3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DadosControl4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DadosControl5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="formCarousel.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="formCredits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formDados.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="formGame.cs">
@@ -20,6 +41,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="formInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formIntro.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormLoading.cs">
@@ -44,6 +68,12 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControl6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl7.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl8.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>

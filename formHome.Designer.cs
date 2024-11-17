@@ -2,8 +2,15 @@
 {
     partial class formHome
     {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -13,83 +20,155 @@
             base.Dispose(disposing);
         }
 
+
+
         #region Windows Form Designer generated code
 
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            labelStatistics = new Label();
-            labelLegalInfo = new Label();
-            progressBarConsumption = new ProgressBar();
-
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formHome));
+            img_bk_hm = new PictureBox();
+            img_card1 = new PictureBox();
+            img_card2 = new PictureBox();
+            ucPage11 = new ucPage1();
+            ucPage21 = new ucPage2();
+            btn_back1 = new PictureBox();
+            btn_back2 = new PictureBox();
+            label_home = new Label();
+            ((System.ComponentModel.ISupportInitialize)img_bk_hm).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)img_card1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)img_card2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btn_back1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btn_back2).BeginInit();
             SuspendLayout();
-
             // 
-            // label1
+            // img_bk_hm
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(451, 50);
-            label1.Name = "label1";
-            label1.Size = new Size(127, 47);
-            label1.TabIndex = 0;
-            label1.Text = "HOME";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
-
+            img_bk_hm.BackColor = Color.FromArgb(42, 42, 69);
+            img_bk_hm.Location = new Point(79, 65);
+            img_bk_hm.Name = "img_bk_hm";
+            img_bk_hm.Size = new Size(922, 590);
+            img_bk_hm.TabIndex = 0;
+            img_bk_hm.TabStop = false;
+            img_bk_hm.Click += pictureBox1_Click;
             // 
-            // labelStatistics
+            // img_card1
             // 
-            labelStatistics.AutoSize = true;
-            labelStatistics.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelStatistics.Location = new Point(100, 150);
-            labelStatistics.Name = "labelStatistics";
-            labelStatistics.Size = new Size(400, 21);
-            labelStatistics.TabIndex = 1;
-            labelStatistics.Text = "Estatísticas: Consumo de água esta semana foi 20% menor.";
-
+            img_card1.Cursor = Cursors.Hand;
+            img_card1.Image = Properties.Resources.Conheca;
+            img_card1.Location = new Point(155, 104);
+            img_card1.Name = "img_card1";
+            img_card1.Size = new Size(357, 511);
+            img_card1.TabIndex = 1;
+            img_card1.TabStop = false;
+            img_card1.Click += img_card1_Click;
             // 
-            // progressBarConsumption
+            // img_card2
             // 
-            progressBarConsumption.Location = new Point(100, 200);
-            progressBarConsumption.Name = "progressBarConsumption";
-            progressBarConsumption.Size = new Size(400, 30);
-            progressBarConsumption.TabIndex = 2;
-            progressBarConsumption.Value = 50; // Exemplo: 50% do consumo atingido dps tem q add o valor real, nao ffaço ideia de api <3
-
+            img_card2.Cursor = Cursors.Hand;
+            img_card2.Image = Properties.Resources.Curiosidades;
+            img_card2.Location = new Point(573, 104);
+            img_card2.Name = "img_card2";
+            img_card2.Size = new Size(357, 511);
+            img_card2.TabIndex = 2;
+            img_card2.TabStop = false;
+            img_card2.Click += img_card2_Click;
             // 
-            // labelLegalInfo
+            // ucPage11
             // 
-            labelLegalInfo.AutoSize = true;
-            labelLegalInfo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelLegalInfo.Location = new Point(100, 270);
-            labelLegalInfo.Name = "labelLegalInfo";
-            labelLegalInfo.Size = new Size(350, 21);
-            labelLegalInfo.TabIndex = 3;
-            labelLegalInfo.Text = "Aviso: Respeite as normas locais de consumo de água.";
-
+            ucPage11.BackColor = Color.FromArgb(0, 14, 39);
+            ucPage11.BackgroundImageLayout = ImageLayout.None;
+            ucPage11.Location = new Point(0, 0);
+            ucPage11.Name = "ucPage11";
+            ucPage11.Size = new Size(1080, 720);
+            ucPage11.TabIndex = 4;
+            // 
+            // ucPage21
+            // 
+            ucPage21.BackColor = Color.FromArgb(0, 14, 39);
+            ucPage21.Location = new Point(0, 0);
+            ucPage21.Name = "ucPage21";
+            ucPage21.Size = new Size(1080, 720);
+            ucPage21.TabIndex = 5;
+            ucPage21.Load += ucPage21_Load;
+            // 
+            // btn_back1
+            // 
+            btn_back1.Cursor = Cursors.Hand;
+            btn_back1.Image = (Image)resources.GetObject("btn_back1.Image");
+            btn_back1.Location = new Point(12, 12);
+            btn_back1.Name = "btn_back1";
+            btn_back1.Size = new Size(69, 43);
+            btn_back1.SizeMode = PictureBoxSizeMode.Zoom;
+            btn_back1.TabIndex = 6;
+            btn_back1.TabStop = false;
+            btn_back1.Click += btn_back1_Click;
+            // 
+            // btn_back2
+            // 
+            btn_back2.Cursor = Cursors.Hand;
+            btn_back2.Image = (Image)resources.GetObject("btn_back2.Image");
+            btn_back2.Location = new Point(12, 12);
+            btn_back2.Name = "btn_back2";
+            btn_back2.Size = new Size(69, 43);
+            btn_back2.SizeMode = PictureBoxSizeMode.Zoom;
+            btn_back2.TabIndex = 7;
+            btn_back2.TabStop = false;
+            btn_back2.Click += btn_back2_Click;
+            // 
+            // label_home
+            // 
+            label_home.AutoSize = true;
+            label_home.Cursor = Cursors.Help;
+            label_home.Font = new Font("Tahoma", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label_home.ForeColor = Color.White;
+            label_home.Location = new Point(362, 16);
+            label_home.Name = "label_home";
+            label_home.Size = new Size(372, 33);
+            label_home.TabIndex = 3;
+            label_home.Text = "Por onde deseja começar?";
+            label_home.Click += label_home_Click;
             // 
             // formHome
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(0, 14, 39);
             ClientSize = new Size(1080, 720);
-            Controls.Add(label1);
-            Controls.Add(labelStatistics);
-            Controls.Add(progressBarConsumption);
-            Controls.Add(labelLegalInfo);
+            Controls.Add(btn_back2);
+            Controls.Add(btn_back1);
+            Controls.Add(ucPage21);
+            Controls.Add(ucPage11);
+            Controls.Add(label_home);
+            Controls.Add(img_card2);
+            Controls.Add(img_card1);
+            Controls.Add(img_bk_hm);
             FormBorderStyle = FormBorderStyle.None;
             Name = "formHome";
             Text = "formHome";
             Load += formHome_Load;
+            ((System.ComponentModel.ISupportInitialize)img_bk_hm).EndInit();
+            ((System.ComponentModel.ISupportInitialize)img_card1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)img_card2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btn_back1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btn_back2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private Label labelStatistics;
-        private Label labelLegalInfo;
-        private ProgressBar progressBarConsumption;
+        private PictureBox img_bk_hm;
+        private PictureBox img_card1;
+        private PictureBox img_card2;
+        private ucPage1 ucPage11;
+        private ucPage2 ucPage21;
+        private PictureBox btn_back1;
+        private PictureBox btn_back2;
+        private Label label_home;
     }
 }

@@ -11,6 +11,8 @@ namespace waterApp
         formInfo info;
         formGame game;
         formCredits credits;
+        formDados dados;
+        formIntro intro;
 
         public formMain()
         {
@@ -18,6 +20,7 @@ namespace waterApp
             this.Text = "Poseidon's Journey"; // Define o título da janela
             this.StartPosition = FormStartPosition.CenterScreen;
             this.Size = new Size(1132, 763);
+            this.FormBorderStyle = FormBorderStyle.None; // Remove bordas
             this.MaximizeBox = false;
             this.IsMdiContainer = true;
             mdiProp();
@@ -89,17 +92,17 @@ namespace waterApp
             }
         }
 
-        private void OpenGameForm()
+        private void OpenIntroForm()
         {
-            if (game == null || game.IsDisposed)
+            if (intro == null || intro.IsDisposed)
             {
-                game = new formGame();
-                game.FormClosed += (s, e) => game = null;
-                ShowForm(game);
+                intro = new formIntro();
+                intro.FormClosed += (s, e) => intro = null;
+                ShowForm(intro);
             }
             else
             {
-                game.Activate();
+                intro.Activate();
             }
         }
 
@@ -114,6 +117,20 @@ namespace waterApp
             else
             {
                 credits.Activate();
+            }
+        }
+
+        private void OpenDadosForm()
+        {
+            if (dados == null || dados.IsDisposed)
+            {
+                dados = new formDados();
+                dados.FormClosed += (s, e) => dados = null;
+                ShowForm(dados);
+            }
+            else
+            {
+                dados.Activate();
             }
         }
 
@@ -154,29 +171,34 @@ namespace waterApp
         private void btnHam_Click(object sender, EventArgs e)
         {
             sidebarTransition.Start();
+            this.DoubleBuffered = true;
         }
 
         // Eventos dos botões
         private void button1_Click(object sender, EventArgs e)
         {
             OpenHomeForm();
+            this.DoubleBuffered = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             OpenInfoForm();
+            this.DoubleBuffered = true;
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            OpenGameForm();
+            OpenIntroForm();
+            this.DoubleBuffered = true;
         }
 
 
         private void button4_Click(object sender, EventArgs e)
         {
             OpenCreditsForm();
+            this.DoubleBuffered = true;
         }
 
         private void pnHome_Paint(object sender, PaintEventArgs e)
@@ -187,22 +209,25 @@ namespace waterApp
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             OpenHomeForm();
+            this.DoubleBuffered = true;
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             OpenCreditsForm();
-
+            this.DoubleBuffered = true;
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            OpenGameForm();
+            OpenIntroForm();
+            this.DoubleBuffered = true;
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            OpenInfoForm();
+            OpenDadosForm();
+            this.DoubleBuffered = true;
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)

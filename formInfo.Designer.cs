@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblinfo = new Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formInfo));
             lblinfotext = new Label();
             panel1 = new Panel();
             btndica6 = new Button();
@@ -44,29 +44,19 @@
             userControl41 = new UserControl4();
             userControl51 = new UserControl5();
             userControl61 = new UserControl6();
+            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // lblinfo
-            // 
-            lblinfo.AutoSize = true;
-            lblinfo.BackColor = Color.Transparent;
-            lblinfo.Font = new Font("Tahoma", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblinfo.ForeColor = Color.White;
-            lblinfo.Location = new Point(12, 9);
-            lblinfo.Name = "lblinfo";
-            lblinfo.Size = new Size(117, 45);
-            lblinfo.TabIndex = 0;
-            lblinfo.Text = "INFO";
             // 
             // lblinfotext
             // 
             lblinfotext.BackColor = Color.Transparent;
             lblinfotext.Font = new Font("Tahoma", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblinfotext.ForeColor = Color.White;
-            lblinfotext.Location = new Point(12, 60);
+            lblinfotext.Location = new Point(26, 85);
             lblinfotext.Name = "lblinfotext";
-            lblinfotext.Size = new Size(366, 72);
+            lblinfotext.Size = new Size(366, 50);
             lblinfotext.TabIndex = 1;
             lblinfotext.Text = "Nessa seção serão apresentadas dicas de consumo consciente de água.";
             // 
@@ -248,6 +238,18 @@
             userControl61.Size = new Size(1026, 542);
             userControl61.TabIndex = 8;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Cursor = Cursors.Hand;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(12, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(69, 43);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 10;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
             // formInfo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -255,10 +257,10 @@
             BackColor = Color.FromArgb(0, 14, 39);
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1080, 720);
+            Controls.Add(pictureBox1);
             Controls.Add(lblcliquedica);
             Controls.Add(panel1);
             Controls.Add(lblinfotext);
-            Controls.Add(lblinfo);
             Controls.Add(userControl61);
             Controls.Add(userControl51);
             Controls.Add(userControl41);
@@ -271,13 +273,12 @@
             Text = "formInfo";
             Load += formInfo_Load;
             panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Label lblinfo;
         private Label lblinfotext;
         private Panel panel1;
         private Button btndica1;
@@ -293,5 +294,6 @@
         private UserControl4 userControl41;
         private UserControl5 userControl51;
         private UserControl6 userControl61;
+        private PictureBox pictureBox1;
     }
 }
