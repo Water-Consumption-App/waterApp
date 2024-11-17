@@ -45,8 +45,8 @@
             txt_opc5_uc8 = new TextBox();
             txt_opc6_uc8 = new TextBox();
             txt_opc7_uc8 = new TextBox();
-            txt_opc8_uc8 = new TextBox();
             txt_opc9_uc8 = new TextBox();
+            txt_opc8_uc8 = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -214,10 +214,12 @@
             txt_opc1_uc8.Location = new Point(168, 155);
             txt_opc1_uc8.Multiline = true;
             txt_opc1_uc8.Name = "txt_opc1_uc8";
+            txt_opc1_uc8.ReadOnly = true;
             txt_opc1_uc8.Size = new Size(150, 169);
             txt_opc1_uc8.TabIndex = 2;
             txt_opc1_uc8.Text = "Que uma torneira aberta gasta até 12 litros de água por minuto. Por isso, fechar a torneira enquanto escova os dentes ou lava a louça economiza muito.\n";
             txt_opc1_uc8.TextAlign = HorizontalAlignment.Center;
+            txt_opc1_uc8.TextChanged += txt_opc1_uc8_TextChanged;
             // 
             // txt_opc2_uc8
             // 
@@ -307,41 +309,41 @@
             txt_opc7_uc8.TextAlign = HorizontalAlignment.Center;
             txt_opc7_uc8.TextChanged += txt_opc7_uc8_TextChanged;
             // 
-            // txt_opc8_uc8
-            // 
-            txt_opc8_uc8.BackColor = Color.FromArgb(0, 14, 39);
-            txt_opc8_uc8.BorderStyle = BorderStyle.None;
-            txt_opc8_uc8.Font = new Font("Tahoma", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txt_opc8_uc8.ForeColor = Color.White;
-            txt_opc8_uc8.Location = new Point(776, 538);
-            txt_opc8_uc8.Multiline = true;
-            txt_opc8_uc8.Name = "txt_opc8_uc8";
-            txt_opc8_uc8.Size = new Size(150, 141);
-            txt_opc8_uc8.TabIndex = 2;
-            txt_opc8_uc8.Text = "Que lavar louçapode gastar até 5 litros de água por prato, dependendo do tamanho e do tempo que a torneira fica aberta.";
-            txt_opc8_uc8.TextAlign = HorizontalAlignment.Center;
-            // 
             // txt_opc9_uc8
             // 
             txt_opc9_uc8.BackColor = Color.FromArgb(0, 14, 39);
             txt_opc9_uc8.BorderStyle = BorderStyle.None;
             txt_opc9_uc8.Font = new Font("Tahoma", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txt_opc9_uc8.ForeColor = Color.White;
-            txt_opc9_uc8.Location = new Point(473, 529);
+            txt_opc9_uc8.Location = new Point(776, 538);
             txt_opc9_uc8.Multiline = true;
             txt_opc9_uc8.Name = "txt_opc9_uc8";
-            txt_opc9_uc8.Size = new Size(150, 188);
+            txt_opc9_uc8.Size = new Size(150, 141);
             txt_opc9_uc8.TabIndex = 2;
-            txt_opc9_uc8.Text = "Que usar uma mangueira para limpar as janelas pode consumir até 50 litros de água por vez. Usando um pano úmido e balde, você reduz esse número drasticamente.";
+            txt_opc9_uc8.Text = "Que lavar louçapode gastar até 5 litros de água por prato, dependendo do tamanho e do tempo que a torneira fica aberta.";
             txt_opc9_uc8.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txt_opc8_uc8
+            // 
+            txt_opc8_uc8.BackColor = Color.FromArgb(0, 14, 39);
+            txt_opc8_uc8.BorderStyle = BorderStyle.None;
+            txt_opc8_uc8.Font = new Font("Tahoma", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txt_opc8_uc8.ForeColor = Color.White;
+            txt_opc8_uc8.Location = new Point(473, 529);
+            txt_opc8_uc8.Multiline = true;
+            txt_opc8_uc8.Name = "txt_opc8_uc8";
+            txt_opc8_uc8.Size = new Size(150, 188);
+            txt_opc8_uc8.TabIndex = 2;
+            txt_opc8_uc8.Text = "Que usar uma mangueira para limpar as janelas pode consumir até 50 litros de água por vez. Usando um pano úmido e balde, você reduz esse número drasticamente.";
+            txt_opc8_uc8.TextAlign = HorizontalAlignment.Center;
             // 
             // ucPage2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 14, 39);
-            Controls.Add(txt_opc9_uc8);
             Controls.Add(txt_opc8_uc8);
+            Controls.Add(txt_opc9_uc8);
             Controls.Add(txt_opc7_uc8);
             Controls.Add(txt_opc6_uc8);
             Controls.Add(txt_opc5_uc8);
@@ -384,7 +386,7 @@
         private TextBox txt_opc5_uc8;
         private TextBox txt_opc6_uc8;
         private TextBox txt_opc7_uc8;
-        private TextBox txt_opc8_uc8;
         private TextBox txt_opc9_uc8;
+        private TextBox txt_opc8_uc8;
     }
 }

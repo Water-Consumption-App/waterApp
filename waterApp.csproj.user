@@ -4,13 +4,34 @@
     <Compile Update="CustomProgressBar.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="DadosControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DadosControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DadosControl3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DadosControl4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DadosControl5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="formCarousel.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="formCredits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formDados.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="formGame.cs">
@@ -27,9 +48,6 @@
     </Compile>
     <Compile Update="LifeBar.cs">
       <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="Properties\formCredits.cs">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Update="UserControl1.cs">
       <SubType>UserControl</SubType>

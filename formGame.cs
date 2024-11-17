@@ -15,6 +15,7 @@ namespace waterApp
         public formGame()
         {
             InitializeComponent();
+            this.Size = new Size(1080, 720);
             this.FormBorderStyle = FormBorderStyle.None; // Remove bordas
             this.DoubleBuffered = true;
 
@@ -276,11 +277,6 @@ new QuizQuestion
             vidaConsumo = 100;
             AtualizarVida();
             DisplayQuestion();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 

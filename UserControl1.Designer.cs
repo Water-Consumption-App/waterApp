@@ -42,9 +42,9 @@
             lbluserdica1.ForeColor = Color.White;
             lbluserdica1.Location = new Point(15, 194);
             lbluserdica1.Name = "lbluserdica1";
-            lbluserdica1.Size = new Size(484, 108);
+            lbluserdica1.Size = new Size(484, 189);
             lbluserdica1.TabIndex = 0;
-            lbluserdica1.Text = "Sempre verifique se seu chuveiro, vaso sanitário, tanque ou torneiras apresentam vazamentos.";
+            lbluserdica1.Text = resources.GetString("lbluserdica1.Text");
             lbluserdica1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
@@ -70,13 +70,12 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(10, 29, 55);
+            BackColor = Color.FromArgb(42, 42, 69);
             Controls.Add(panel1);
             Controls.Add(lbluserdica1);
             Margin = new Padding(3, 2, 3, 2);
             Name = "UserControl1";
             Size = new Size(1026, 542);
-            Load += UserControl1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             ResumeLayout(false);

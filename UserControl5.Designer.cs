@@ -40,11 +40,11 @@
             // 
             lbluserdica5.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbluserdica5.ForeColor = Color.White;
-            lbluserdica5.Location = new Point(20, 187);
+            lbluserdica5.Location = new Point(17, 187);
             lbluserdica5.Name = "lbluserdica5";
-            lbluserdica5.Size = new Size(480, 142);
+            lbluserdica5.Size = new Size(480, 182);
             lbluserdica5.TabIndex = 0;
-            lbluserdica5.Text = "O vaso sanitário não deve ser usado como lixeira ou acionado à toa, pois consome muita água. Também evite jogar papel higiênico para não causar entupimentos.";
+            lbluserdica5.Text = resources.GetString("lbluserdica5.Text");
             lbluserdica5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel1
@@ -70,7 +70,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(10, 29, 55);
+            BackColor = Color.FromArgb(42, 42, 69);
             Controls.Add(panel1);
             Controls.Add(lbluserdica5);
             Margin = new Padding(3, 2, 3, 2);

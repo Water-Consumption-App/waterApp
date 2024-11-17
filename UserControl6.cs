@@ -21,10 +21,5 @@ namespace waterApp
         {
 
         }
-
-        private void UserControl6_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

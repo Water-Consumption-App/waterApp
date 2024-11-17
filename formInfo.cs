@@ -13,9 +13,14 @@ namespace waterApp
 {
     public partial class formInfo : Form
     {
+
+        formDados dados;
+
+
         public formInfo()
         {
             InitializeComponent();
+            this.Size = new Size(1080, 720);
             this.FormBorderStyle = FormBorderStyle.None; // Remove bordas
             this.DoubleBuffered = true;
         }
@@ -29,6 +34,15 @@ namespace waterApp
             userControl41.Hide();
             userControl51.Hide();
             userControl61.Hide();
+        }
+
+        private void ShowForm(Form form)
+        {
+            form.MdiParent = this.MdiParent;  // Define o formulário pai
+            form.StartPosition = FormStartPosition.CenterScreen;
+            form.Dock = DockStyle.Fill; // Preenche automaticamente o espaço disponível no MDI
+            form.MaximizeBox = false;
+            form.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -132,9 +146,24 @@ namespace waterApp
 
         }
 
-        private void userControl61_Load_1(object sender, EventArgs e)
+        private void OpenDadosForm()
         {
+            if (dados == null || dados.IsDisposed)
+            {
+                dados = new formDados();
+                dados.FormClosed += (s, e) => dados = null;
+                ShowForm(dados);
+            }
+            else
+            {
+                dados.Activate();
+            }
+        }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            OpenDadosForm();
+            this.DoubleBuffered = true;
         }
     }
 }

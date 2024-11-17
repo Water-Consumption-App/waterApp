@@ -42,10 +42,10 @@
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.Font = new Font("Tahoma", 30F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox1.ForeColor = Color.White;
-            textBox1.Location = new Point(24, 100);
+            textBox1.Location = new Point(37, 118);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(1038, 551);
+            textBox1.Size = new Size(1020, 538);
             textBox1.TabIndex = 0;
             textBox1.Text = resources.GetString("textBox1.Text");
             textBox1.TextChanged += textBox1_TextChanged;
@@ -56,7 +56,7 @@
             label1.BackColor = Color.FromArgb(10, 29, 55);
             label1.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(246, 66);
+            label1.Location = new Point(242, 82);
             label1.Name = "label1";
             label1.Size = new Size(574, 25);
             label1.TabIndex = 1;
@@ -68,7 +68,7 @@
             label2.BackColor = Color.FromArgb(10, 29, 55);
             label2.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.Yellow;
-            label2.Location = new Point(565, 66);
+            label2.Location = new Point(561, 82);
             label2.Name = "label2";
             label2.Size = new Size(218, 25);
             label2.TabIndex = 2;
@@ -77,9 +77,9 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.FromArgb(10, 29, 55);
-            pictureBox1.Location = new Point(10, 49);
+            pictureBox1.Location = new Point(19, 65);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1066, 615);
+            pictureBox1.Size = new Size(1042, 602);
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             // 
