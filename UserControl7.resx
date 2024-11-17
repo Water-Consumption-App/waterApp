@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Oi! Somos o Poseidon´s Journey, um app super divertido que ajuda você a aprender como usar a água de maneira mais consciente e legal! Estamos aqui para mostrar como pequenas atitudes, como fechar a torneira enquanto escova os dentes ou não deixar a mangueira ligada, podem ajudar a economizar muita água e proteger nosso planeta. Com jogos, desafios e dicas fáceis de entender, vamos juntos aprender a cuidar da água de forma divertida e fácil! Vem com a gente nessa missão de tornar o mundo um lugar melhor para todos!</value>
+  </data>
 </root>

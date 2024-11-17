@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\fer\\downloads\\waterapp-branch-fer\\waterapp-branch-fer\\usercontrol8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:usercontrol8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\fer\\downloads\\waterapp-branch-fer\\waterapp-branch-fer\\usercontrol8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:usercontrol8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\usercontrol7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:usercontrol7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\forminfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:forminfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\fer\\downloads\\waterapp-branch-fer\\waterapp-branch-fer\\usercontrol8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:usercontrol8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\fer\\downloads\\waterapp-branch-fer\\waterapp-branch-fer\\usercontrol8.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:usercontrol8.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\usercontrol7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:usercontrol7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\fer\\downloads\\waterapp-branch-fer\\waterapp-branch-fer\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\fer\\downloads\\waterapp-branch-fer\\waterapp-branch-fer\\usercontrol7.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|c:\\users\\fer\\downloads\\waterapp-branch-fer\\waterapp-branch-fer\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|solutionrelative:formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6BBC047-10E0-47AD-B89A-61A5595276A3}|waterApp.csproj|C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -62,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 204,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,18 +67,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserControl8.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\UserControl8.cs",
-              "RelativeDocumentMoniker": "UserControl8.cs",
-              "ToolTip": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\UserControl8.cs [Projeto]",
-              "RelativeToolTip": "UserControl8.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T09:37:07.383Z",
-              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
@@ -98,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "formHome.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\formHome.cs",
               "RelativeDocumentMoniker": "formHome.cs",
@@ -110,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "UserControl7.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\UserControl7.cs",
               "RelativeDocumentMoniker": "UserControl7.cs",
@@ -135,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -148,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Form2.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -159,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "formHome.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\formHome.Designer.cs",
               "RelativeDocumentMoniker": "formHome.Designer.cs",
@@ -168,6 +152,43 @@
               "ViewState": "AgIAABQAAAAAAAAAAAAawKoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T21:42:58.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserControl7.cs",
+              "DocumentMoniker": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\UserControl7.cs",
+              "RelativeDocumentMoniker": "UserControl7.cs",
+              "ToolTip": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\UserControl7.cs",
+              "RelativeToolTip": "UserControl7.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T21:14:41.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "formHome.cs",
+              "DocumentMoniker": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\formHome.cs",
+              "RelativeDocumentMoniker": "formHome.cs",
+              "ToolTip": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\formHome.cs",
+              "RelativeToolTip": "formHome.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T23:17:16.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "formInfo.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\formInfo.cs",
+              "RelativeDocumentMoniker": "formInfo.cs",
+              "ToolTip": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\formInfo.cs [Projeto]",
+              "RelativeToolTip": "formInfo.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T21:14:25.775Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
@@ -184,52 +205,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserControl7.cs",
-              "DocumentMoniker": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\UserControl7.cs",
-              "RelativeDocumentMoniker": "UserControl7.cs",
-              "ToolTip": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\UserControl7.cs",
-              "RelativeToolTip": "UserControl7.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwBsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T21:14:41.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserControl8.cs",
+              "DocumentIndex": 2,
+              "Title": "UserControl8.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\UserControl8.cs",
               "RelativeDocumentMoniker": "UserControl8.cs",
-              "ToolTip": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\UserControl8.cs",
-              "RelativeToolTip": "UserControl8.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIAwwBkAAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\UserControl8.cs [Projeto]",
+              "RelativeToolTip": "UserControl8.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T21:02:28.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "formHome.cs",
-              "DocumentMoniker": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\formHome.cs",
-              "RelativeDocumentMoniker": "formHome.cs",
-              "ToolTip": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\formHome.cs",
-              "RelativeToolTip": "formHome.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T23:17:16.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "formInfo.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\formInfo.cs",
-              "RelativeDocumentMoniker": "formInfo.cs",
-              "ToolTip": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\formInfo.cs [Projeto]",
-              "RelativeToolTip": "formInfo.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T21:14:25.775Z",
+              "WhenOpened": "2024-11-17T09:37:07.383Z",
               "EditorCaption": " [Projeto]"
             }
           ]
