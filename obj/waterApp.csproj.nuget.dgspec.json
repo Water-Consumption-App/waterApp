@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fer\\Downloads\\waterApp-projeto\\waterApp.csproj": {}
+    "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\waterApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fer\\Downloads\\waterApp-projeto\\waterApp.csproj": {
+    "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\waterApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fer\\Downloads\\waterApp-projeto\\waterApp.csproj",
+        "projectUniqueName": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\waterApp.csproj",
         "projectName": "waterApp",
-        "projectPath": "C:\\Users\\Fer\\Downloads\\waterApp-projeto\\waterApp.csproj",
+        "projectPath": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\waterApp.csproj",
         "packagesPath": "C:\\Users\\Fer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fer\\Downloads\\waterApp-projeto\\obj\\",
+        "outputPath": "C:\\Users\\Fer\\Downloads\\waterApp-branch-fer\\waterApp-branch-fer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

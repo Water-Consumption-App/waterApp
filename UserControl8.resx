@@ -117,7 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBox1.Text" xml:space="preserve">
-    <value>"Em 2024, o consumo de água no Brasil está em foco, especialmente em relação à utilização dos recursos hídricos e às questões de acesso e distribuição. Em termos de uso, o Brasil retirou cerca de 64,18 trilhões de litros de água em 2022, com a maior parte destinada à irrigação (50,5%), abastecimento urbano (23,9%) e à indústria (9,4%). Esses números refletem a concentração de uso de água em setores essenciais como a agricultura e a indústria, que, juntos, representam mais de 80% do total consumido."</value>
-  </data>
 </root>
