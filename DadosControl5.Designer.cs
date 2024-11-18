@@ -50,7 +50,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(245, 20);
+            label1.Location = new Point(262, 20);
             label1.Name = "label1";
             label1.Size = new Size(362, 29);
             label1.TabIndex = 3;
