@@ -63,7 +63,7 @@ namespace waterApp
         {
                 new QuizQuestion
 {
-    QuestionText = "Qual é a principal fonte de água?",
+    QuestionText = "Qual é a principal fonte de água potável?",
     Options = new List<string> { "Rio", "Mar", "Lago", "Subterrânea" },
     CorrectAnswerIndex = 3
 },

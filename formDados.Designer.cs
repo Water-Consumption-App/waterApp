@@ -42,11 +42,11 @@
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(351, 19);
+            label1.Location = new Point(388, 18);
             label1.Name = "label1";
-            label1.Size = new Size(397, 29);
+            label1.Size = new Size(368, 29);
             label1.TabIndex = 2;
-            label1.Text = "Escolha Por Onde Quer Começar";
+            label1.Text = "Escolha Onde Vamos Explorar";
             // 
             // pictureBox1
             // 
